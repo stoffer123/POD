@@ -11,3 +11,4 @@
 				item = "optic_ElcanC79";
 			};
 		};
+	};

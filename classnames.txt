@@ -1,0 +1,29 @@
+//Skilte
+POD_Skilt_POD
+POD_Skilt_1Grp
+POD_Skilt_2Grp
+POD_Skilt_3Grp
+POD_Skilt_Deltrop
+POD_Skilt_Zeus
+POD_Skilt_Reklame_Topgun
+
+
+//Ammoboxes
+POD_Boxes_Medic   ---    Medic kasse med 2x SYHJ udrustning
+POD_Boxes_Banana  ---    Banan Kasse med 4000 Bananer
+
+
+//KP Ranks insignias
+KPR_DK_0          --- Rekrut
+KPR_DK_1          --- Konstabel
+KPR_DK_2          --- Overkonstabel
+KPR_DK_3          --- Overkonstabel af 1. Grad
+KPR_DK_4          --- Korporal
+KPR_DK_5          --- Sergentelev
+KPR_DK_6          --- Sergent
+KPR_DK_7          --- Oversergent
+KPR_DK_8          --- SeniorSergent
+KPR_DK_9          --- Løjtnant
+KPR_DK_10         --- Premierløjtnant
+KPR_DK_11         --- Kaptajn
+

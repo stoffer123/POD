@@ -4,23 +4,23 @@
 	class ThingX;
 	class Wall_F;
 	class NonStrategic: Building
-	{
-		class AnimationSources;
-	};
+		{
+			class AnimationSources;
+		};
 	class FlagCarrierCore;
 	class POD_Skilt_POD: NonStrategic
-	{
+		{
 		author = "Platoon of Danes - Mikkelsen";
 		mapSize = 0.69;
 		class SimpleObject
-		{
+			{
 			eden = 0;
 			animate[] = {};
 			hide[] = {};
 			verticalOffset = 0.184;
 			verticalOffsetWorld = 0;
 			init = "''";
-		};
+			};
 		editorPreview = "";
 		_generalMacro = "POD_Skilt_POD";
 		scope = 2;
@@ -35,7 +35,7 @@
 		keepHorizontalPlacement = 1;
 		hiddenselections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"POD\POD_\POD_Skilt\POD_Skilt_POD.paa"};
-	};
+		};
 	
 	
 	
@@ -44,14 +44,14 @@
 		author = "Platoon of Danes - Mikkelsen";
 		mapSize = 1.28;
 		class SimpleObject
-		{
+			{
 			eden = 0;
 			animate[] = {};
 			hide[] = {};
 			verticalOffset = 1.04;
 			verticalOffsetWorld = 0;
 			init = "''";
-		};
+			};
 		editorPreview = "";
 		_generalMacro = "POD_Skilt_1Grp";
 		displayName = "POD_Skilt_1Grp";
@@ -66,14 +66,14 @@
 		author = "Platoon of Danes - Mikkelsen";
 		mapSize = 1.28;
 		class SimpleObject
-		{
+			{
 			eden = 0;
 			animate[] = {};
 			hide[] = {};
 			verticalOffset = 1.04;
 			verticalOffsetWorld = 0;
 			init = "''";
-		};
+			};
 		editorPreview = "";
 		_generalMacro = "POD_Skilt_2Grp";
 		displayName = "POD_Skilt_2Grp";

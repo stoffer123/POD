@@ -6,7 +6,10 @@
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
-#include "Macros.hpp"
+#define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM {name = ITEM; count = COUNT;}
+#define MACRO_ADDMAG(MAGAZINE,COUNT) class _xx_##MAGAZINE {magazine = MAGAZINE; count = COUNT;}
+#define MACRO_ADDWEAPON(WEAPON,COUNT) class _xx_##WEAPON {weapon = WEAPON; count = COUNT;}
+#define MACRO_ADDBACKPACK(BACKPACK,COUNT) class _xx_##BACKPACK {backpack = BACKPACK; count = COUNT; \}
 //(13 Enums)
 enum {
 	destructengine = 2,
@@ -31,9 +34,9 @@ class CfgPatches
 		author = "Platoon of Danes - Mikkelsen";
 		name = "Platoon of Danes Boxes";
 		url = "https://www.platoonofdanes.com";
-		requiredAddons[] = {"A3_Data_F","A3_Structures_F","ace_medical_treatment","A3_Supplies_F_Heli_CargoNets"};
+		requiredAddons[] = {"A3_Data_F","A3_Structures_F","ace_medical_treatment","A3_Supplies_F_Heli_CargoNets","A3_Characters_F"};
 		requiredVersion = 0.1;
-		units[] = {"POD_Boxes_Medic","POD_Boxes_Banana"};
+		units[] = {"POD_Boxes_Medic","POD_Boxes_Banana","POD_S_Medic"};
 		weapons[] = {};
 	};
 };
@@ -57,6 +60,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "POD Ammo kasser"; // Name visible in the list
 	};
+	class POD_EdSubcat_Soldiers // Category class, you point to it in editorSubcategory property
+	{
+		displayName = "Soldat Medic";
+	};
 };
 
 
@@ -66,4 +73,5 @@ class cfgVehicles
 {  
 	#include "POD_Boxes.hpp"
 	#include "POD_Skilt.hpp"
+	#include "POD_S_Medic.hpp"
 };

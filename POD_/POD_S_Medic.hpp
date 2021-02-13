@@ -8,6 +8,8 @@
 		scopeArsenal = 2;					// 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};		// Identity Types are explained in the Headgear section of this guide.
 		displayName = "Soldat Medic";		// The name of the soldier, which is displayed in the editor.
+		editorCategory = "POD_EdCat";
+		editorSubcategory = "POD_EdSubcat_Soldiers";
 		/*
 		cost = 200000;						// How likely the enemies attack this character among some others.
 		camouflage = 1.5;					// How likely this character is spotted (smaller number = more stealthy).

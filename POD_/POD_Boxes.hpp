@@ -6,11 +6,16 @@ class ACE_medicalSupplyCrate;
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";
 
-		class TransportItems
+		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
-		//MACRO_ADDMAG(MAGAZINE,COUNT)
-		//MACRO_ADDITEM(ITEM,COUNT)
+		{};
 		
+		class TransportMagazines
+		//MACRO_ADDMAG(MAGAZINE,COUNT)
+		{};
+		
+		class TransportItems
+		//MACRO_ADDITEM(ITEM,COUNT)
 		{
 			MACRO_ADDITEM(ACE_elasticBandage,60)
 			MACRO_ADDITEM(ACE_morphine,20)
@@ -25,6 +30,10 @@ class ACE_medicalSupplyCrate;
 			MACRO_ADDITEM(ACE_splint,20)
 
 		};
+		
+		class TransportBackpacks
+		//MACRO_ADDBACKPACK(BACKPACK,COUNT)
+		{};
 	};
 	
 class B_CargoNet_01_ammo_F; 
@@ -36,19 +45,26 @@ class B_CargoNet_01_ammo_F;
 		editorSubcategory = "POD_EdSubcat_Boxes";
 		transportMaxItems = 5000;
 		
-		class TransportItems
+		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
-		//MACRO_ADDMAG(MAGAZINE,COUNT)
-		//MACRO_ADDITEM(ITEM,COUNT)
 		{
-			MACRO_ADDITEM(ACE_banana,4000)
-
-
+			MACRO_ADDWEAPON(gtr_weap_L119A2_CBN_Tan,1)
+			MACRO_ADDWEAPON(gtr_weap_L119A2_CBN_fde,1)
+			MACRO_ADDWEAPON(LMG_M60E6_F,1)
+			
 		};
 		
 		class TransportMagazines
+		//MACRO_ADDMAG(MAGAZINE,COUNT)
 		{};
 		
-		class TransportWeapons
+		class TransportItems
+		//MACRO_ADDITEM(ITEM,COUNT)
+		{
+			MACRO_ADDITEM(ACE_Banana,4000)
+		};
+		
+		class TransportBackpacks
+		//MACRO_ADDBACKPACK(BACKPACK,COUNT)
 		{};
 	};

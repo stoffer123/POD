@@ -9,10 +9,13 @@
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};		// Identity Types are explained in the Headgear section of this guide.
 		weapons[] = {POD_gtr_weap_L119A2_CBN_Tan, Throw, Put};				// Which weapons the character has.
 		respawnWeapons[] = {POD_gtr_weap_L119A2_CBN_Tan, Throw, Put};		// Which weapons the character respawns with.
-		displayName = "Soldat Medic";		// The name of the soldier, which is displayed in the editor.
+		displayName = "Soldat";										// The name of the soldier, which is displayed in the editor.
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		magazines[] = {mag_10(30Rnd_556x45_Stanag), SmokeShell, SmokeShellGreen, Chemlight_green, Chemlight_green, mag_2(HandGrenade)};				// What ammunition the character has.
+		respawnMagazines[] = {mag_10(30Rnd_556x45_Stanag), SmokeShell, SmokeShellGreen, Chemlight_green, Chemlight_green, mag_2(HandGrenade)};		// What ammunition the character respawns with.
+		linkedItems[] = {V_DDAM_Vest_MTS_TYR, H_DDAM_Helmet_M11_camo, B_Carryall_mcamo, ItemMap, ItemCompass, ItemWatch, ItemRadio, NVGoggles};				// Which items the character has.
+		respawnLinkedItems[] = {V_DDAM_Vest_MTS_TYR, H_DDAM_Helmet_M11_camo, B_Carryall_mcamo, ItemMap, ItemCompass, ItemWatch, ItemRadio, NVGoggles};		// Which items the character respawns with.
 
 		/*
 		cost = 200000;						// How likely the enemies attack this character among some others.

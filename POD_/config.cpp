@@ -64,7 +64,8 @@ class CfgEditorSubcategories
 	};
 };
 
-class cfgWeapons{
+class cfgWeapons
+{
 	#include "POD_M10_ELCAN.hpp"
 };
 

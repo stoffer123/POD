@@ -68,8 +68,7 @@
 
 
 
-	// LMG 					
-		class POD_LMG_Soldat: POD_Soldat	
+	class POD_LMG_Soldat: POD_Soldat	
 	{
 		author = "[POD] Nebel";					
 		weapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};			
@@ -108,6 +107,4 @@
 			mag_2(Chemlight_green),
 			mag_2(HandGrenade)
 			};
-	};
-
 	};

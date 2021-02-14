@@ -240,7 +240,9 @@ class B_CargoNet_01_ammo_F;
 		displayName = "POD Logistik kasse";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";
-		transportMaxItems = 5000;
+		transportMaxWeapons = 7500;
+		transportMaxMagazines = 4500;
+		transportMaxItems = 15000;
 		
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
@@ -310,6 +312,18 @@ class B_CargoNet_01_ammo_F;
 		class TransportBackpacks
 		//MACRO_ADDBACKPACK(BACKPACK,COUNT)
 		{
+			class B_Carryall_mcamo
+			{
+				backpack = B_Carryall_mcamo;
+				count = 20;
+				
+			};
 			
+			class B_AssaultPack_mcamo
+			{
+				backpack = B_AssaultPack_mcamo;
+				count = 20;
+				
+			};
 		};
 	};

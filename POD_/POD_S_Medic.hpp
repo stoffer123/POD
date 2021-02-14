@@ -12,10 +12,11 @@
 		displayName = "Soldat";										// The name of the soldier, which is displayed in the editor.
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
+		backpack = "B_Carryall_mcamo";
 		magazines[] = {mag_10(30Rnd_556x45_Stanag), SmokeShell, SmokeShellGreen, Chemlight_green, Chemlight_green, mag_2(HandGrenade)};				// What ammunition the character has.
 		respawnMagazines[] = {mag_10(30Rnd_556x45_Stanag), SmokeShell, SmokeShellGreen, Chemlight_green, Chemlight_green, mag_2(HandGrenade)};		// What ammunition the character respawns with.
-		linkedItems[] = {V_DDAM_Vest_MTS_TYR, H_DDAM_Helmet_M11_camo, B_Carryall_mcamo, ItemMap, ItemCompass, ItemWatch, ItemRadio, NVGoggles};				// Which items the character has.
-		respawnLinkedItems[] = {V_DDAM_Vest_MTS_TYR, H_DDAM_Helmet_M11_camo, B_Carryall_mcamo, ItemMap, ItemCompass, ItemWatch, ItemRadio, NVGoggles};		// Which items the character respawns with.
+		linkedItems[] = {V_DDAM_Vest_MTS_TYR, H_DDAM_Helmet_M11_camo, ItemMap, ItemCompass, ItemWatch, ItemRadio, NVGoggles};				// Which items the character has.
+		respawnLinkedItems[] = {V_DDAM_Vest_MTS_TYR, H_DDAM_Helmet_M11_camo, ItemMap, ItemCompass, ItemWatch, ItemRadio, NVGoggles};		// Which items the character respawns with.
 
 		/*
 		cost = 200000;						// How likely the enemies attack this character among some others.

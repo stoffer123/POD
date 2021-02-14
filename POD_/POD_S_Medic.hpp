@@ -12,6 +12,8 @@
 		displayName = "Soldat Medic";		// The name of the soldier, which is displayed in the editor.
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
+		magazines[] = {mag_10(30Rnd_556x45_Stanag), SmokeShell, SmokeShellGreen, Chemlight_green, Chemlight_green, mag_2(HandGrenade)};				// What ammunition the character has.
+
 		/*
 		cost = 200000;						// How likely the enemies attack this character among some others.
 		camouflage = 1.5;					// How likely this character is spotted (smaller number = more stealthy).

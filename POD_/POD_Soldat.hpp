@@ -68,7 +68,6 @@
 
 
 
-	// LMG 					
 	class POD_LMG_Soldat: POD_Soldat	
 	{
 		author = "[POD] Nebel";					

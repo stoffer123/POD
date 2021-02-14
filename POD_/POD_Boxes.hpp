@@ -64,6 +64,74 @@ class B_CargoNet_01_ammo_F;
 		{};
 	};
 	
+	class POD_Boxes_STD: B_CargoNet_01_ammo_F
+	{
+		scope = 2;		//
+		displayName = "POD Standard kasse";
+		editorCategory = "POD_EdCat";
+		editorSubcategory = "POD_EdSubcat_Boxes";
+		transportMaxItems = 5000;
+		
+		class TransportWeapons
+		//MACRO_ADDWEAPON(WEAPON,COUNT)
+		{
+			MACRO_ADDWEAPON(tf47_at4_heat,2)
+			MACRO_ADDWEAPON(ACE_VMH3,2)
+			
+		};
+		
+		class TransportMagazines
+		//MACRO_ADDMAG(MAGAZINE,COUNT)
+		{
+			MACRO_ADDMAG(30Rnd_556x45_Stanag,32) 
+			MACRO_ADDMAG(100Rnd_762x51_Mag,16)
+			MACRO_ADDMAG(tf47_m3maaws_HEAT,2)
+			MACRO_ADDMAG(tf47_m3maaws_HE,1)
+			MACRO_ADDMAG(HandGrenade,12)
+			MACRO_ADDMAG(SmokeShell,12)
+			MACRO_ADDMAG(DemoCharge_Remote_Mag,5)
+			MACRO_ADDMAG(SatchelCharge_Remote_Mag,2)
+			
+		};
+	class POD_Boxes_STD_Minus: B_CargoNet_01_ammo_F
+	{
+		scope = 2;		//
+		displayName = "POD Standard kasse Minus";
+		editorCategory = "POD_EdCat";
+		editorSubcategory = "POD_EdSubcat_Boxes";
+		transportMaxItems = 5000;
+		
+		class TransportWeapons
+		//MACRO_ADDWEAPON(WEAPON,COUNT)
+		{
+			MACRO_ADDWEAPON(tf47_at4_heat,2)
+			MACRO_ADDWEAPON(ACE_VMH3,2)
+			
+		};
+		
+		class TransportMagazines
+		//MACRO_ADDMAG(MAGAZINE,COUNT)
+		{
+			MACRO_ADDMAG(DemoCharge_Remote_Mag,5)
+			MACRO_ADDMAG(SatchelCharge_Remote_Mag,2)
+		};		
+		class TransportItems
+		//MACRO_ADDITEM(ITEM,COUNT)
+		{
+			MACRO_ADDITEM(ACE_Clacker,1)
+			MACRO_ADDITEM(ACE_wirecutter,1)
+			MACRO_ADDITEM(ACE_EntrenchingTool,2)
+			MACRO_ADDITEM(ACE_SpraypaintBlue,2)
+			MACRO_ADDITEM(ACE_SpraypaintRed,2)
+			MACRO_ADDITEM(ACE_SpraypaintGreen,2)
+			
+		};
+		
+		class TransportBackpacks
+		//MACRO_ADDBACKPACK(BACKPACK,COUNT)
+		{};
+	};
+	
 	class POD_Boxes_HGR: B_CargoNet_01_ammo_F
 	{
 		scope = 2;		//
@@ -89,6 +157,75 @@ class B_CargoNet_01_ammo_F;
 		class TransportItems
 		//MACRO_ADDITEM(ITEM,COUNT)
 		{};
+		
+		class TransportBackpacks
+		//MACRO_ADDBACKPACK(BACKPACK,COUNT)
+		{};
+	};
+	
+	class POD_Boxes_DYKN: B_CargoNet_01_ammo_F
+	{
+		scope = 2;		//
+		displayName = "POD DYKN + AT4";
+		editorCategory = "POD_EdCat";
+		editorSubcategory = "POD_EdSubcat_Boxes";
+		transportMaxItems = 5000;
+		
+		class TransportWeapons
+		//MACRO_ADDWEAPON(WEAPON,COUNT)
+		{
+			MACRO_ADDWEAPON(tf47_m3maaws,10)
+			MACRO_ADDWEAPON(tf47_at4_heat,100)
+		};
+		
+		class TransportMagazines
+		//MACRO_ADDMAG(MAGAZINE,COUNT)
+		{
+			MACRO_ADDMAG(tf47_m3maaws_HEAT,100)
+			MACRO_ADDMAG(tf47_m3maaws_HE,100)
+			
+		};
+		
+		class TransportItems
+		//MACRO_ADDITEM(ITEM,COUNT)
+		{
+			MACRO_ADDITEM(ACE_Vector,10)
+			MACRO_ADDITEM(tf47_optic_m3maaws,10)
+		};
+		
+		class TransportBackpacks
+		//MACRO_ADDBACKPACK(BACKPACK,COUNT)
+		{};
+	};
+	
+	class POD_Boxes_LMG: B_CargoNet_01_ammo_F
+	{
+		scope = 2;		//
+		displayName = "POD LMG Kasse";
+		editorCategory = "POD_EdCat";
+		editorSubcategory = "POD_EdSubcat_Boxes";
+		transportMaxItems = 5000;
+		
+		class TransportWeapons
+		//MACRO_ADDWEAPON(WEAPON,COUNT)
+		{
+			MACRO_ADDWEAPON(LMG_M60E6_F,10)
+			MACRO_ADDWEAPON(POD_LMG_Elcan_LYLA,10)
+		};
+		
+		class TransportMagazines
+		//MACRO_ADDMAG(MAGAZINE,COUNT)
+		{
+			MACRO_ADDMAG(100Rnd_762x51_Mag,100)			
+		};
+		
+		class TransportItems
+		//MACRO_ADDITEM(ITEM,COUNT)
+		{
+			MACRO_ADDITEM(ACE_SpareBarrel,10)
+			MACRO_ADDITEM(optic_ElcanC79,10)
+			MACRO_ADDITEM(rhsusf_acc_anpeq15,10)
+		};
 		
 		class TransportBackpacks
 		//MACRO_ADDBACKPACK(BACKPACK,COUNT)

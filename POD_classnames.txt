@@ -11,7 +11,11 @@ POD_Skilt_Reklame_Topgun
 //Ammoboxes
 POD_Boxes_Medic   --- Medic kasse med 2x SYHJ udrustning
 POD_Boxes_Banana  --- Banan Kasse med 4000 Bananer
+POD_Boxes_STD     --- Standard kasse med alt hvad gruppen skal bruge.
+POD_Boxes_STD_Minus --- Standard kasse til når Lima er med på mission
 POD_Boxes_HGR     --- HGR Kasse
+POD_Boxes_DYKN    --- Dysekanon kasse til træningsmission
+POD_Boxes_LMG     --- LMG Kasse til træningsmission
 
 
 //KP Ranks insignias

@@ -93,6 +93,7 @@ class B_CargoNet_01_ammo_F;
 			MACRO_ADDMAG(SatchelCharge_Remote_Mag,2)
 			
 		};
+	};
 	class POD_Boxes_STD_Minus: B_CargoNet_01_ammo_F
 	{
 		scope = 2;		//

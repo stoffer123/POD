@@ -94,6 +94,7 @@ class B_CargoNet_01_ammo_F;
 			
 		};
 	};
+	
 	class POD_Boxes_STD_Minus: B_CargoNet_01_ammo_F
 	{
 		scope = 2;		//

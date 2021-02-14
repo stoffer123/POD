@@ -6,10 +6,8 @@
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
-#define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM {name = ITEM; count = COUNT;}
-#define MACRO_ADDMAG(MAGAZINE,COUNT) class _xx_##MAGAZINE {magazine = MAGAZINE; count = COUNT;}
-#define MACRO_ADDWEAPON(WEAPON,COUNT) class _xx_##WEAPON {weapon = WEAPON; count = COUNT;}
-#define MACRO_ADDBACKPACK(BACKPACK,COUNT) class _xx_##BACKPACK {backpack = BACKPACK; count = COUNT; \}
+#include "Macros.hpp"
+
 //(13 Enums)
 enum {
 	destructengine = 2,

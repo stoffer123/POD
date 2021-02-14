@@ -47,12 +47,7 @@ class B_CargoNet_01_ammo_F;
 		
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
-		{
-			MACRO_ADDWEAPON(gtr_weap_L119A2_CBN_Tan,1)
-			MACRO_ADDWEAPON(gtr_weap_L119A2_CBN_fde,1)
-			MACRO_ADDWEAPON(LMG_M60E6_F,1)
-			
-		};
+		{};
 		
 		class TransportMagazines
 		//MACRO_ADDMAG(MAGAZINE,COUNT)

@@ -1,4 +1,4 @@
-
+	//BASE SOLDAT
 	class B_Soldier_F;					
 	class POD_Soldat: B_Soldier_F	
 	{
@@ -13,8 +13,21 @@
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "B_Carryall_mcamo";
-		Items[] = {};			
-		RespawnItems[] = {};			
+		Items[] = {
+			mag_2(ACE_elasticBandage),
+			mag_2(ACE_CableTie),
+			mag_2(ACE_morphine),
+			mag_2(ACE_tourniquet),
+			ACE_PRC343
+		};			
+
+		RespawnItems[] = {
+			mag_2(ACE_elasticBandage),
+			mag_2(ACE_CableTie),
+			mag_2(ACE_morphine),
+			mag_2(ACE_tourniquet),
+			ACE_PRC343
+		};					
 
 		magazines[] = {
 			mag_8(30Rnd_556x45_Stanag), 
@@ -43,7 +56,7 @@
 
 		respawnLinkedItems[] = {
 			V_DDAM_Vest_MTS_TYR,
-			 H_DDAM_Helmet_M11_camo,
+			H_DDAM_Helmet_M11_camo,
 			ItemMap,
 			ItemCompass,
 			ItemWatch,
@@ -56,7 +69,7 @@
 
 
 	// LMG 			
-	class POD_Soldat_LMG: B_Soldier_F	
+	class POD_Soldat_LMG: POD_Soldat	
 	{
 		author = "[POD] Nebel";			
 		scope = 2;							
@@ -88,7 +101,7 @@
 
 		linkedItems[] = {
 			V_DDAM_Vest_MTS_TYR,
-			 H_DDAM_Helmet_M11_camo,
+			H_DDAM_Helmet_M11_camo,
 			ItemMap,
 			ItemCompass,
 			ItemWatch,

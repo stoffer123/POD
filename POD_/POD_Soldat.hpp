@@ -45,7 +45,7 @@
 
 		linkedItems[] = {
 			V_DDAM_Vest_MTS_TYR,
-			 H_DDAM_Helmet_M11_camo,
+			H_DDAM_Helmet_M11_camo,
 			ItemMap,
 			ItemCompass,
 			ItemWatch,
@@ -68,32 +68,47 @@
 
 
 
-	// LMG 			
-	class POD_Soldat_LMG: POD_Soldat	
+	// LMG 					
+	class POD_LMG_Soldat: POD_Soldat	
 	{
-		author = "[POD] Nebel";			
-		scope = 2;							
-		scopeCurator = 2;					
-		scopeArsenal = 2;					
+		author = "[POD] Nebel";		
+		scope = 2;						
+		scopeCurator = 2;				
+		scopeArsenal = 2;				
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};	
 		weapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};			
-		respawnWeapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};	
-		displayName = "Soldat LMG";										
+		respawnWeapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};		
+		displayName = "Soldat LMG";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
-		backpack = "";
-		Items[] = {};	
-		RespawnItems[] = {};
+		backpack = "B_Carryall_mcamo";
+		Items[] = {
+			mag_2(ACE_elasticBandage),
+			mag_2(ACE_CableTie),
+			mag_2(ACE_morphine),
+			mag_2(ACE_tourniquet),
+			ACE_SpareBarrel,
+			ACE_PRC343
+		};			
+
+		RespawnItems[] = {
+			mag_2(ACE_elasticBandage),
+			mag_2(ACE_CableTie),
+			mag_2(ACE_morphine),
+			mag_2(ACE_tourniquet),
+			ACE_SpareBarrel,
+			ACE_PRC343
+		};					
 
 		magazines[] = {
-			mag_8(30Rnd_556x45_Stanag), 
+			mag_8(100Rnd_762x51_Mag), 
 			SmokeShell, SmokeShellGreen, 
 			mag_2(Chemlight_green),
 			mag_2(HandGrenade)
 			};
 
 		respawnMagazines[] = {
-			mag_8(30Rnd_556x45_Stanag),
+			mag_8(100Rnd_762x51_Mag),
 			SmokeShell, SmokeShellGreen,
 			mag_2(Chemlight_green),
 			mag_2(HandGrenade)
@@ -112,7 +127,7 @@
 
 		respawnLinkedItems[] = {
 			V_DDAM_Vest_MTS_TYR,
-			 H_DDAM_Helmet_M11_camo,
+			H_DDAM_Helmet_M11_camo,
 			ItemMap,
 			ItemCompass,
 			ItemWatch,
@@ -120,5 +135,47 @@
 			rhs_googles_clear,
 			DDAM_PVS14
 			};
+	};
+
+		class POD_LMG_Soldat_1: POD_Soldat	
+	{
+		author = "[POD] Nebel";					
+		weapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};			
+		respawnWeapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};		
+		displayName = "Soldat LMG TEST";
+		editorCategory = "POD_EdCat";
+		editorSubcategory = "POD_EdSubcat_Soldiers";
+		Items[] = {
+			mag_2(ACE_elasticBandage),
+			mag_2(ACE_CableTie),
+			mag_2(ACE_morphine),
+			mag_2(ACE_tourniquet),
+			ACE_SpareBarrel,
+			ACE_PRC343
+		};			
+
+		RespawnItems[] = {
+			mag_2(ACE_elasticBandage),
+			mag_2(ACE_CableTie),
+			mag_2(ACE_morphine),
+			mag_2(ACE_tourniquet),
+			ACE_SpareBarrel,
+			ACE_PRC343
+		};					
+
+		magazines[] = {
+			mag_8(100Rnd_762x51_Mag), 
+			SmokeShell, SmokeShellGreen, 
+			mag_2(Chemlight_green),
+			mag_2(HandGrenade)
+			};
+
+		respawnMagazines[] = {
+			mag_8(100Rnd_762x51_Mag),
+			SmokeShell, SmokeShellGreen,
+			mag_2(Chemlight_green),
+			mag_2(HandGrenade)
+			};
+	};
 
 	};

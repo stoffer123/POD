@@ -41,3 +41,5 @@ POD_Soldat_GV3    --- Sygehjælper
 POD_Soldat_LMG    --- Letmaskingeværsskytte
 
 //Våben
+POD_M10_Elcan_LYLA  --- M10
+POD_LMG_Elcan_LYLA  --- LMG

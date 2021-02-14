@@ -5,6 +5,7 @@
 		displayName="POD M10";
 		scope=2;
 		scopeCurator=2;
+		scopeArsenal = 2;
 		_generalMacro = "POD_M10_Elcan_LYLA";
 		magazines[] = {"30Rnd_556x45_Stanag"};
 		class LinkedItems
@@ -28,6 +29,7 @@
 		displayName="POD M60";
 		scope=2;
 		scopeCurator=2;
+		scopeArsenal = 2;
 		_generalMacro = "POD_LMG_Elcan_LYLA";
 		magazines[] = {"100Rnd_762x51_Mag"};
 		class LinkedItems

@@ -1,6 +1,6 @@
 
 	class B_Soldier_F;					// For inheritance to work, the base class has to be defined.
-	class POD_S_Medic: B_Soldier_F	// Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
+	class POD_Soldat: B_Soldier_F	// Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
 	{
 		author = "[POD] Nebel";			// The name of the author of the asset, which is displayed in the editor.
 		scope = 2;							// 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
@@ -13,10 +13,45 @@
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "B_Carryall_mcamo";
-		magazines[] = {mag_10(30Rnd_556x45_Stanag), SmokeShell, SmokeShellGreen, Chemlight_green, Chemlight_green, mag_2(HandGrenade)};				// What ammunition the character has.
-		respawnMagazines[] = {mag_10(30Rnd_556x45_Stanag), SmokeShell, SmokeShellGreen, Chemlight_green, Chemlight_green, mag_2(HandGrenade)};		// What ammunition the character respawns with.
-		linkedItems[] = {V_DDAM_Vest_MTS_TYR, H_DDAM_Helmet_M11_camo, ItemMap, ItemCompass, ItemWatch, ItemRadio, NVGoggles};				// Which items the character has.
-		respawnLinkedItems[] = {V_DDAM_Vest_MTS_TYR, H_DDAM_Helmet_M11_camo, ItemMap, ItemCompass, ItemWatch, ItemRadio, NVGoggles};		// Which items the character respawns with.
+		Items[] = {};				// Which items the character has.
+		RespawnItems[] = {};			// Which items the character respawns with.
+
+		magazines[] = {
+			mag_8(30Rnd_556x45_Stanag), 
+			SmokeShell, SmokeShellGreen, 
+			Chemlight_green, 
+			Chemlight_green, 
+			mag_2(HandGrenade)
+			};
+
+		respawnMagazines[] = {
+			mag_8(30Rnd_556x45_Stanag),
+			SmokeShell, SmokeShellGreen,
+			Chemlight_green, Chemlight_green,
+			mag_2(HandGrenade)
+			};
+
+		linkedItems[] = {
+			V_DDAM_Vest_MTS_TYR,
+			 H_DDAM_Helmet_M11_camo,
+			ItemMap,
+			ItemCompass,
+			ItemWatch,
+			ItemRadio,
+			rhs_googles_clear,
+			DDAM_PVS14
+			};
+
+		respawnLinkedItems[] = {
+			V_DDAM_Vest_MTS_TYR,
+			 H_DDAM_Helmet_M11_camo,
+			ItemMap,
+			ItemCompass,
+			ItemWatch,
+			ItemRadio,
+			rhs_googles_clear,
+			DDAM_PVS14
+			};
 
 		/*
 		cost = 200000;						// How likely the enemies attack this character among some others.

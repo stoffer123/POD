@@ -60,7 +60,7 @@ class CfgEditorSubcategories
 	};
 	class POD_EdSubcat_Soldiers // Category class, you point to it in editorSubcategory property
 	{
-		displayName = "Soldat Medic";
+		displayName = "Soldater";
 	};
 };
 
@@ -74,5 +74,5 @@ class cfgVehicles
 {  
 	#include "POD_Boxes.hpp"
 	#include "POD_Skilt.hpp"
-	#include "POD_S_Medic.hpp"
+	#include "POD_Soldat.hpp"
 };

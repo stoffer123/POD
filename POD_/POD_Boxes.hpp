@@ -141,3 +141,4 @@ class B_CargoNet_01_ammo_F;
 		//MACRO_ADDBACKPACK(BACKPACK,COUNT)
 		{};
 	};
+	

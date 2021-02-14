@@ -11,6 +11,7 @@ POD_Skilt_Reklame_Topgun
 //Ammoboxes
 POD_Boxes_Medic   --- Medic kasse med 2x SYHJ udrustning
 POD_Boxes_Banana  --- Banan Kasse med 4000 Bananer
+POD_Boxes_STD     --- Standard kasse med alt hvad gruppen skal bruge.
 POD_Boxes_HGR     --- HGR Kasse
 
 

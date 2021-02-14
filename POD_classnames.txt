@@ -9,8 +9,9 @@ POD_Skilt_Reklame_Topgun
 
 
 //Ammoboxes
-POD_Boxes_Medic   ---    Medic kasse med 2x SYHJ udrustning
-POD_Boxes_Banana  ---    Banan Kasse med 4000 Bananer
+POD_Boxes_Medic   --- Medic kasse med 2x SYHJ udrustning
+POD_Boxes_Banana  --- Banan Kasse med 4000 Bananer
+POD_Boxes_HGR     --- HGR Kasse
 
 
 //KP Ranks insignias
@@ -27,3 +28,14 @@ KPR_DK_9          --- Løjtnant
 KPR_DK_10         --- Premierløjtnant
 KPR_DK_11         --- Kaptajn
 
+//Characters
+POD_Soldat_Base   --- Base Class
+POD_Soldat_DF     --- Delingsfører
+POD_Soldat_NK     --- NK Deling
+POD_Soldat_SANMD  --- Sanitetsmand
+POD_Soldat_Oscar  --- Signalmand
+POD_Soldat_GF     --- Gruppefører
+POD_Soldat_GV1    --- Bravo
+POD_Soldat_GV2    --- GV2 (Dyseskytte)
+POD_Soldat_GV3    --- Sygehjælper
+POD_Soldat_LMG    --- Letmaskingeværsskytte

@@ -7,8 +7,8 @@
 		scopeCurator = 2;					// 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
 		scopeArsenal = 2;					// 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};		// Identity Types are explained in the Headgear section of this guide.
-		weapons[] = {POD_gtr_weap_L119A2_CBN_Tan, Throw, Put};				// Which weapons the character has.
-		respawnWeapons[] = {POD_gtr_weap_L119A2_CBN_Tan, Throw, Put};		// Which weapons the character respawns with.
+		weapons[] = {POD_M10_Elcan, Throw, Put};				// Which weapons the character has.
+		respawnWeapons[] = {POD_M10_Elcan, Throw, Put};		// Which weapons the character respawns with.
 		displayName = "Soldat";										// The name of the soldier, which is displayed in the editor.
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";

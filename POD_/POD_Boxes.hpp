@@ -308,8 +308,6 @@ class B_CargoNet_01_ammo_F;
 		class TransportBackpacks
 		//MACRO_ADDBACKPACK(BACKPACK,COUNT)
 		{
-			MACRO_ADDBACKPACK(B_Carryall_mcamo,20)
-			MACRO_ADDBACKPACK(B_AssaultPack_mcamo,20)
 			
 		};
 	};

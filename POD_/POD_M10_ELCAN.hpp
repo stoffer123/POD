@@ -11,6 +11,7 @@
 				slot = "CowsSlot";
 				item = "optic_ElcanC79";
 			};
+<<<<<<< HEAD
 			class LinkedItemsAcc
 			{
 				slot = "PointerSlot";
@@ -18,4 +19,7 @@
 			};
 		};
 
+=======
+		};
+>>>>>>> 7f713a1a5d81512d50a6eae1a090d6078012cab7
 	};

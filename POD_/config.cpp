@@ -34,8 +34,8 @@ class CfgPatches
 		url = "https://www.platoonofdanes.com";
 		requiredAddons[] = {"A3_Data_F","A3_Structures_F","ace_medical_treatment","A3_Supplies_F_Heli_CargoNets","A3_Characters_F","L119A2"};
 		requiredVersion = 0.1;
-		units[] = {"POD_Boxes_Medic","POD_Boxes_Banana","POD_S_Medic"};
-		weapons[] = {};
+		units[] = {"POD_Boxes_Medic","POD_Boxes_Banana","POD_Soldat","POD_Soldat_LMG"};
+		weapons[] = {"POD_M10_Elcan_LYLA","POD_LMG_Elcan_LYLA"};
 	};
 };
 

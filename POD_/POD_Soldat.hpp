@@ -19,8 +19,7 @@
 		magazines[] = {
 			mag_8(30Rnd_556x45_Stanag), 
 			SmokeShell, SmokeShellGreen, 
-			Chemlight_green, 
-			Chemlight_green, 
+			mag_2(Chemlight_green),
 			mag_2(HandGrenade)
 			};
 

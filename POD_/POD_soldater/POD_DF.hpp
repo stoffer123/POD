@@ -12,6 +12,7 @@
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "POD_BP_DF";
 		uniformClass = "rhs_uniform_g3_mc";
+		//editorPreview = "POD_soldater\data\POD_soldat.jpg";
 		Items[] = {
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),

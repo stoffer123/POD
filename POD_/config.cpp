@@ -32,7 +32,7 @@ class CfgPatches
 		author = "Platoon of Danes - Mikkelsen";
 		name = "Platoon of Danes Boxes";
 		url = "https://www.platoonofdanes.com";
-		requiredAddons[] = {"A3_Data_F","A3_Structures_F","ace_medical_treatment","A3_Supplies_F_Heli_CargoNets","A3_Characters_F","L119A2","ACRE"};
+		requiredAddons[] = {"A3_Data_F","A3_Structures_F","ace_medical_treatment","A3_Supplies_F_Heli_CargoNets","A3_Characters_F","L119A2"};
 		requiredVersion = 0.1;
 		units[] = {"POD_Boxes_Medic","POD_Boxes_Banana","POD_Soldat","POD_Soldat_LMG","POD_Boxes_STD","POD_Boxes_STD_Minus","POD_Boxes_HGR","POD_Boxes_DYKN","POD_Boxes_LMG","POD_Boxes_Logistik"};
 		weapons[] = {"POD_M10_Elcan_LYLA","POD_LMG_Elcan_LYLA"};
@@ -72,7 +72,9 @@ class cfgWeapons
 
 class cfgVehicles
 {  
+
 	#include "POD_Boxes.hpp"
 	#include "POD_Skilt.hpp"
+	#include "POD_Backpacks.hpp"
 	#include "POD_Soldat.hpp"
 };

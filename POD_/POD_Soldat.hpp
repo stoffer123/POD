@@ -18,7 +18,7 @@
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
-			ACE_PRC343
+			ACRE_PRC343
 		};			
 
 		RespawnItems[] = {
@@ -26,7 +26,7 @@
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
-			ACE_PRC343
+			ACRE_PRC343
 		};					
 
 		magazines[] = {
@@ -74,21 +74,19 @@
 		scopeCurator = 2;				
 		scopeArsenal = 2;				
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};	
-		weapons[] = {POD_M10_Elcan_LYLA, Throw, Put};			
-		respawnWeapons[] = {POD_M10_Elcan_LYLA, Throw, Put};		
+		weapons[] = {POD_M10_Elcan_LYLA, Ace_vector, Throw, Put};			
+		respawnWeapons[] = {POD_M10_Elcan_LYLA, Ace_vector, Throw, Put};		
 		displayName = "Delingsføre";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
-		backpack = "B_Carryall_mcamo";
+		backpack = "POD_BP_DF";
 		Items[] = {
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
-			ACE_PRC343,
-			ACRE_PRC117F,
+			ACRE_PRC343,
 			ItemcTab,
-			ACE_VectorDay,
 			ACE_microDAGR,
 			ACRE_PRC152
 		};			
@@ -98,13 +96,11 @@
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
-			ACE_PRC343,
-			ACRE_PRC117F,
+			ACRE_PRC343,
 			ItemcTab,
-			ACE_VectorDay,
 			ACE_microDAGR,
 			ACRE_PRC152
-		};					
+		};							
 
 		magazines[] = {
 			mag_8(30Rnd_556x45_Stanag), 
@@ -127,7 +123,7 @@
 			ItemCompass,
 			ItemWatch,
 			rhs_googles_clear,
-			DDAM_PVS14
+			DDAM_PVS14,
 			};
 
 		respawnLinkedItems[] = {
@@ -137,7 +133,7 @@
 			ItemCompass,
 			ItemWatch,
 			rhs_googles_clear,
-			DDAM_PVS14
+			DDAM_PVS14,
 			};
 	};
 
@@ -157,7 +153,7 @@
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
 			ACE_SpareBarrel,
-			ACE_PRC343
+			ACRE_PRC343
 		};			
 
 		RespawnItems[] = {
@@ -166,7 +162,7 @@
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
 			ACE_SpareBarrel,
-			ACE_PRC343
+			ACRE_PRC343
 		};					
 
 		magazines[] = {

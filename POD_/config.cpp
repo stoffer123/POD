@@ -75,7 +75,7 @@ class cfgVehicles
 	//POD Ammo kasser.
 	#include "POD_Boxes\POD_Boxes_Banana.hpp" //indeholder baseclass class B_CargoNet_01_ammo_F; 
 	#include "POD_Boxes\POD_Boxes_Medic.hpp"  //Indeholder baseclass class ACE_medicalSupplyCrate;
-	#include "POD_Boxes\POD_DYKN.hpp"
+	#include "POD_Boxes\POD_Boxes_DYKN.hpp"
 	#include "POD_Boxes\POD_Boxes_HGR.hpp"
 	#include "POD_Boxes\POD_Boxes_LMG.hpp"
 	#include "POD_Boxes\POD_Boxes_Logistik.hpp"

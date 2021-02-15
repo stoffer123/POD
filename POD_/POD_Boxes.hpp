@@ -43,7 +43,7 @@ class B_CargoNet_01_ammo_F;
 		displayName = "POD BANANA BOX";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";
-		transportMaxItems = 5000;
+		maximumLoad = 50000;
 		
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
@@ -70,7 +70,7 @@ class B_CargoNet_01_ammo_F;
 		displayName = "POD Standard kasse";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";
-		transportMaxItems = 5000;
+		maximumLoad = 50000;
 		
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
@@ -93,6 +93,21 @@ class B_CargoNet_01_ammo_F;
 			MACRO_ADDMAG(SatchelCharge_Remote_Mag,2)
 			
 		};
+		class TransportItems
+		//MACRO_ADDITEM(ITEM,COUNT)
+		{
+			MACRO_ADDITEM(ACE_Clacker,1)
+			MACRO_ADDITEM(ACE_wirecutter,1)
+			MACRO_ADDITEM(ACE_EntrenchingTool,2)
+			MACRO_ADDITEM(ACE_SpraypaintBlue,2)
+			MACRO_ADDITEM(ACE_SpraypaintRed,2)
+			MACRO_ADDITEM(ACE_SpraypaintGreen,2)
+			
+		};
+		
+		class TransportBackpacks
+		//MACRO_ADDBACKPACK(BACKPACK,COUNT)
+		{};
 	};
 	
 	class POD_Boxes_STD_Minus: B_CargoNet_01_ammo_F
@@ -101,7 +116,7 @@ class B_CargoNet_01_ammo_F;
 		displayName = "POD Standard kasse Minus";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";
-		transportMaxItems = 5000;
+		maximumLoad = 50000;
 		
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
@@ -140,7 +155,7 @@ class B_CargoNet_01_ammo_F;
 		displayName = "POD HGR Kasse";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";
-		transportMaxItems = 5000;
+		maximumLoad = 50000;
 		
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
@@ -171,7 +186,7 @@ class B_CargoNet_01_ammo_F;
 		displayName = "POD DYKN + AT4";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";
-		transportMaxItems = 5000;
+		maximumLoad = 50000;
 		
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
@@ -206,7 +221,7 @@ class B_CargoNet_01_ammo_F;
 		displayName = "POD LMG Kasse";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";
-		transportMaxItems = 5000;
+		maximumLoad = 50000;
 		
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)

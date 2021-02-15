@@ -1,4 +1,4 @@
-	class POD_Soldat_DF: B_Soldier_F	
+	class POD_DF: B_Soldier_F	
 	{
 		author = "[POD] Nebel";		
 		scope = 2;						

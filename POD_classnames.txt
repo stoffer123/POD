@@ -35,15 +35,15 @@ KPR_DK_11         --- Kaptajn
 
 //Characters
 POD_Soldat        --- Base Class
-POD_Soldat_DF     --- Delingsfører
-POD_Soldat_NK     --- NK Deling
-POD_Soldat_SANMD  --- Sanitetsmand
-POD_Soldat_Oscar  --- Signalmand
-POD_Soldat_GF     --- Gruppefører
-POD_Soldat_GV1    --- Bravo
-POD_Soldat_GV2    --- GV2 (Dyseskytte)
-POD_Soldat_GV3    --- Sygehjælper
-POD_Soldat_LMG    --- Letmaskingeværsskytte
+POD_DF            --- Delingsfører
+POD_NK            --- NK Deling
+POD_SANMD         --- Sanitetsmand
+POD_Oscar         --- Signalmand
+POD_GF            --- Gruppefører
+POD_GV1           --- Bravo
+POD_GV2           --- GV2 (Dyseskytte)
+POD_GV3           --- Sygehjælper
+POD_LMG           --- Letmaskingeværsskytte
 
 //Våben
 POD_M10_Elcan_LYLA  --- M10 med Elcan og lyslaser
@@ -51,3 +51,4 @@ POD_LMG_Elcan_LYLA  --- LMG med Elcan og lyslaser
 
 //Backpacks
 POD_BP_DF           --- DF taske
+POD_BP_SANMD        --- Sand mand taske

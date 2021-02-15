@@ -1,5 +1,5 @@
 	//LMG
-	class POD_LMG_Soldat: POD_Soldat	
+	class POD_LMG: POD_Soldat	
 	{
 		author = "[POD] Nebel";					
 		weapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};			

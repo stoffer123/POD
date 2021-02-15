@@ -90,6 +90,9 @@ class cfgVehicles
 	#include "POD_soldater\POD_Soldat.hpp"
 	#include "POD_soldater\POD_DF.hpp"
 	#include "POD_soldater\POD_LMG.hpp"
-	
+	#include "POD_soldater\POD_NK.hpp"
+	#include "POD_soldater\POD_SANMD.hpp"
+	#include "POD_soldater\POD_Oscar.hpp"
+	#include "POD_soldater\POD_POD_GF.hpp"
 	
 };

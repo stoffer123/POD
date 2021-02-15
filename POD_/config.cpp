@@ -66,15 +66,18 @@ class CfgEditorSubcategories
 
 class cfgWeapons
 {
-	#include "POD_Weapons.hpp"
+	#include "POD_Weapons\POD_Weapons.hpp"
 };
 
 
 class cfgVehicles
 {  
 
-	#include "POD_Boxes.hpp"
+	#include "POD_Boxes\POD_Boxes.hpp"
 	#include "POD_Skilt.hpp"
-	#include "POD_Backpacks.hpp"
-	#include "POD_Soldat.hpp"
+	#include "POD_soldater\POD_Backpacks.hpp"
+	#include "POD_soldater\POD_Soldat.hpp"
+	#include "POD_soldater\POD_DF.hpp"
+	#include "POD_soldater\POD_LMG.hpp"
+	
 };

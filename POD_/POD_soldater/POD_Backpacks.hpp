@@ -36,3 +36,21 @@ class POD_BP_SANMD: B_Carryall_mcamo
 		MACRO_ADDITEM(ACE_splint, 10)
 	};
 };
+
+class POD_BP_DYKN: B_Carryall_mcamo 
+{
+	
+	scope = 2;
+	author = "[POD] Nebel";
+	displayName = "Dyse taske";
+	maximumLoad = 320;
+	mass = 20;
+	class TransportMagazines
+		//MACRO_ADDMAG(MAGAZINE,COUNT)
+		{
+			MACRO_ADDMAG(tf47_m3maaws_HEAT,2)
+			MACRO_ADDMAG(tf47_m3maaws_HE,2)
+			
+		};
+
+};

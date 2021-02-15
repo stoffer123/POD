@@ -1,17 +1,17 @@
 	//BASE SOLDAT			
 	class POD_GV2: B_Soldier_F	
 	{
-		author = "[POD] Nebel";		
-		scope = 2;						
-		scopeCurator = 2;				
-		scopeArsenal = 2;				
-		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};	
-		weapons[] = {POD_M10_Elcan_LYLA, ACE_vector, Throw, Put};			
-		respawnWeapons[] = {POD_M10_Elcan_LYLA, ACE_vector, Throw, Put};		
-		displayName = "Gevær 3 (Dyseskytte)";
+		author = "[POD] Nebel";	
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};
+		weapons[] = {POD_M10_Elcan_LYLA, POD_Dysekanon, ACE_vector, Throw, Put};
+		respawnWeapons[] = {POD_M10_Elcan_LYLA, POD_Dysekanon, ACE_vector, Throw, Put};
+		displayName = "Gevær 3 (Dyse skytte)";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
-		backpack = "B_Carryall_mcamo";
+		backpack = "POD_BP_DYKN";
 		Items[] = {
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),

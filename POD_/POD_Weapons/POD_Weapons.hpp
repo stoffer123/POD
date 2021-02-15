@@ -46,3 +46,22 @@
 			};
 		};
 	};
+		class tf47_m3maaws;
+		class POD_Dysekanon: tf47_m3maaws
+	{
+		author = "[POD Nebel]";
+		displayName="POD Dysekanon";
+		scope=2;
+		scopeCurator=2;
+		scopeArsenal = 2;
+		_generalMacro = "tf47_optic_m3maaws";
+		magazines[] = {"tf47_m3maaws_HEAT","tf47_m3maaws_HE"};
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "tf47_optic_m3maaws";
+			};
+		};
+	};

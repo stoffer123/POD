@@ -48,6 +48,7 @@ POD_LMG           --- Letmaskingeværsskytte
 //Våben
 POD_M10_Elcan_LYLA  --- M10 med Elcan og lyslaser
 POD_LMG_Elcan_LYLA  --- LMG med Elcan og lyslaser
+POD_Dysekanon       --- Dyse med sigte
 
 //Backpacks
 POD_BP_DF           --- DF taske

@@ -89,12 +89,13 @@ class cfgVehicles
 	#include "POD_soldater\POD_Backpacks.hpp"
 	#include "POD_soldater\POD_Soldat.hpp"
 	#include "POD_soldater\POD_DF.hpp"
-	#include "POD_soldater\POD_LMG.hpp"
 	#include "POD_soldater\POD_NK.hpp"
 	#include "POD_soldater\POD_SANMD.hpp"
 	#include "POD_soldater\POD_Oscar.hpp"
 	#include "POD_soldater\POD_GF.hpp"
 	#include "POD_soldater\POD_GV1.hpp"
 	#include "POD_soldater\POD_GV2.hpp"
+	#include "POD_Soldater\POD_GV3.hpp"
+	#include "POD_soldater\POD_LMG.hpp"
 	
 };

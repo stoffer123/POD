@@ -83,7 +83,7 @@ class cfgVehicles
 	#include "POD_Boxes\POD_Boxes_STD_Minus.hpp"
 	
 	//POD Skilte
-	#include "POD_Skilt.hpp"
+	#include "POD_Skilt\POD_Skilt.hpp"
 	
 	//POD Soldater
 	#include "POD_soldater\POD_Backpacks.hpp"

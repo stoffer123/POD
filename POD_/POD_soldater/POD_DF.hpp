@@ -8,11 +8,12 @@
 		weapons[] = {POD_M10_Elcan_LYLA, Ace_vector, Throw, Put};			
 		respawnWeapons[] = {POD_M10_Elcan_LYLA, Ace_vector, Throw, Put};		
 		displayName = "Delingsfører";
+		editorPreview = "POD\POD_\POD_soldater\data\POD_Soldat.jpg";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "POD_BP_DF";
 		uniformClass = "rhs_uniform_g3_mc";
-		//editorPreview = "POD_soldater\data\POD_soldat.jpg";
+		
 		Items[] = {
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),

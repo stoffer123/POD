@@ -10,6 +10,7 @@
 		weapons[] = {POD_M10_Elcan_LYLA, Throw, Put};			
 		respawnWeapons[] = {POD_M10_Elcan_LYLA, Throw, Put};		
 		displayName = "Geværskytte";
+		editorPreview = "POD\POD_\POD_soldater\data\POD_Soldat.jpg";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "B_Carryall_mcamo";

@@ -9,6 +9,7 @@
 		weapons[] = {POD_M10_Elcan_LYLA, POD_Dysekanon, ACE_vector, Throw, Put};
 		respawnWeapons[] = {POD_M10_Elcan_LYLA, POD_Dysekanon, ACE_vector, Throw, Put};
 		displayName = "Gevær 2 (Dyse skytte)";
+		editorPreview = "POD\POD_\POD_soldater\data\POD_GV2.jpg";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "POD_BP_DYKN";

@@ -1,5 +1,5 @@
-	//BASE SOLDAT				
-	class POD_GF: B_Soldier_F	
+	//BASE SOLDAT			
+	class POD_GV2: B_Soldier_F	
 	{
 		author = "[POD] Nebel";		
 		scope = 2;						
@@ -8,7 +8,7 @@
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};	
 		weapons[] = {POD_M10_Elcan_LYLA, ACE_vector, Throw, Put};			
 		respawnWeapons[] = {POD_M10_Elcan_LYLA, ACE_vector, Throw, Put};		
-		displayName = "Gruppeføre";
+		displayName = "Gevær 3 (Dyseskytte)";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "B_Carryall_mcamo";
@@ -17,8 +17,7 @@
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
-			ACRE_PRC343,
-			ACRE_PRC152
+			ACRE_PRC343
 		};			
 
 		RespawnItems[] = {
@@ -26,8 +25,7 @@
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
-			ACRE_PRC343,
-			ACRE_PRC152
+			ACRE_PRC343
 		};					
 
 		magazines[] = {

@@ -1,5 +1,5 @@
 	//BASE SOLDAT				
-	class POD_GF: B_Soldier_F	
+	class POD_GV1: B_Soldier_F	
 	{
 		author = "[POD] Nebel";		
 		scope = 2;						
@@ -8,7 +8,7 @@
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};	
 		weapons[] = {POD_M10_Elcan_LYLA, ACE_vector, Throw, Put};			
 		respawnWeapons[] = {POD_M10_Elcan_LYLA, ACE_vector, Throw, Put};		
-		displayName = "Gruppeføre";
+		displayName = "Gevær 1";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "B_Carryall_mcamo";

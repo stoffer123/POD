@@ -9,7 +9,7 @@
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};	
 		weapons[] = {POD_M10_Elcan_LYLA, Throw, Put};			
 		respawnWeapons[] = {POD_M10_Elcan_LYLA, Throw, Put};		
-		displayName = "Soldat";
+		displayName = "Geværskytte";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "B_Carryall_mcamo";

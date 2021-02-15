@@ -8,10 +8,11 @@
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};
 		weapons[] = {POD_M10_Elcan_LYLA, POD_Dysekanon, ACE_vector, Throw, Put};
 		respawnWeapons[] = {POD_M10_Elcan_LYLA, POD_Dysekanon, ACE_vector, Throw, Put};
-		displayName = "Gevær 3 (Dyse skytte)";
+		displayName = "Gevær 2 (Dyse skytte)";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "POD_BP_DYKN";
+		uniformClass = "rhs_uniform_g3_mc";
 		Items[] = {
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),

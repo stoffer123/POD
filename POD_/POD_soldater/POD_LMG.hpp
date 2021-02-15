@@ -7,6 +7,7 @@
 		displayName = "Let maskingeværs skytte";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
+		uniformClass = "rhs_uniform_g3_mc";
 		Items[] = {
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),

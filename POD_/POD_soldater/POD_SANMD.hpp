@@ -12,6 +12,7 @@
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "POD_BP_SANMD";
+		uniformClass = "rhs_uniform_g3_mc";
 		Items[] = {
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),

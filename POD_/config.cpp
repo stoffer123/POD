@@ -99,3 +99,20 @@ class cfgVehicles
 	#include "POD_soldater\POD_LMG.hpp"
 	
 };
+
+class cfgFactionClasses
+{
+	class POD_MG
+	{
+		displayname = "Platoon of Danes"
+		flag = "\a3\Data_f\Flags\flag_nato_co.paa";
+		icon = "\a3\Data_f\cfgFactionClasses_BLU_ca.paa";
+		priority = 1;
+		side = 1;
+	};
+};
+
+class cfgGroups{
+
+		#include "POD_groups\POD_groups.hpp"
+};

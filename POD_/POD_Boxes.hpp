@@ -240,9 +240,7 @@ class B_CargoNet_01_ammo_F;
 		displayName = "POD Logistik kasse";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";
-		transportMaxWeapons = 7500;
-		transportMaxMagazines = 4500;
-		transportMaxItems = 15000;
+		maximumLoad = 200000;
 		
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)

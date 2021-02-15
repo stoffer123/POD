@@ -4,7 +4,7 @@
 		author = "[POD] Nebel";					
 		weapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};			
 		respawnWeapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};		
-		displayName = "Letmaskinegevær";
+		displayName = "Let maskingeværs skytte";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		Items[] = {

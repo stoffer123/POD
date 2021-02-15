@@ -7,7 +7,7 @@
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};	
 		weapons[] = {POD_M10_Elcan_LYLA, Ace_vector, Throw, Put};			
 		respawnWeapons[] = {POD_M10_Elcan_LYLA, Ace_vector, Throw, Put};		
-		displayName = "Delingsføre";
+		displayName = "Delingsfører";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "POD_BP_DF";

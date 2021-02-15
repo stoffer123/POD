@@ -72,12 +72,24 @@ class cfgWeapons
 
 class cfgVehicles
 {  
-
-	#include "POD_Boxes\POD_Boxes.hpp"
+	//POD Ammo kasser.
+	#include "POD_Boxes\POD_Boxes_Banana.hpp" //indeholder baseclass class B_CargoNet_01_ammo_F; 
+	#include "POD_Boxes\POD_Boxes_Medic.hpp"  //Indeholder baseclass class ACE_medicalSupplyCrate;
+	#include "POD_Boxes\POD_DYKN.hpp"
+	#include "POD_Boxes\POD_Boxes_HGR.hpp"
+	#include "POD_Boxes\POD_Boxes_LMG.hpp"
+	#include "POD_Boxes\POD_Boxes_Logistik.hpp"
+	#include "POD_Boxes\POD_Boxes_STD.hpp"
+	#include "POD_Boxes\POD_Boxes_STD_Minus.hpp"
+	
+	//POD Skilte
 	#include "POD_Skilt.hpp"
+	
+	//POD Soldater
 	#include "POD_soldater\POD_Backpacks.hpp"
 	#include "POD_soldater\POD_Soldat.hpp"
 	#include "POD_soldater\POD_DF.hpp"
 	#include "POD_soldater\POD_LMG.hpp"
+	
 	
 };

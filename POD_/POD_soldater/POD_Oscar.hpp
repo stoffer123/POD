@@ -8,6 +8,7 @@
 		weapons[] = {POD_M10_Elcan_LYLA, Ace_vector, Throw, Put};			
 		respawnWeapons[] = {POD_M10_Elcan_LYLA, Ace_vector, Throw, Put};		
 		displayName = "Signalmand (Oscar)";
+		icon = "iconMan";
 		editorPreview = "POD\POD_\POD_soldater\data\POD_Soldat.jpg";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";

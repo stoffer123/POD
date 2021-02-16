@@ -5,6 +5,7 @@
 		weapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};			
 		respawnWeapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};		
 		displayName = "Let maskingeværs skytte";
+		icon = "iconManMG";
 		editorPreview = "POD\POD_\POD_soldater\data\POD_LMG.jpg";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";

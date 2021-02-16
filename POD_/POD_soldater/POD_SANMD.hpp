@@ -9,6 +9,7 @@
 		weapons[] = {POD_M10_Elcan_LYLA, ACE_Vector, Throw, Put};			
 		respawnWeapons[] = {POD_M10_Elcan_LYLA, ACE_Vector, Throw, Put};		
 		displayName = "Sanitetsmand";
+		icon = "iconManMedic";
 		editorPreview = "POD\POD_\POD_soldater\data\POD_Soldat.jpg";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";

@@ -20,7 +20,8 @@
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
 			ACRE_PRC343,
-			ACRE_PRC152
+			ACRE_PRC152,
+			ItemAndroid
 		};			
 
 		RespawnItems[] = {
@@ -29,7 +30,8 @@
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
 			ACRE_PRC343,
-			ACRE_PRC152
+			ACRE_PRC152,
+			ItemAndroid
 		};					
 
 		magazines[] = {

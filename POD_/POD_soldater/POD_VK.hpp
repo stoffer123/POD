@@ -1,20 +1,21 @@
-	//BASE SOLDAT				
-	class POD_GV3: B_Soldier_F	
+	//BASE Vognkommandoer				
+	class POD_VK: B_Soldier_F	
 	{
 		author = "[POD] Nebel";		
 		scope = 2;						
 		scopeCurator = 2;				
 		scopeArsenal = 2;				
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};	
-		weapons[] = {POD_M10_Elcan_LYLA, ACE_Vector, Throw, Put};			
-		respawnWeapons[] = {POD_M10_Elcan_LYLA, ACE_Vector, Throw, Put};		
-		displayName = "GV3 (Sygehjælper)";
-		icon = "iconManMedic";
+		weapons[] = {POD_M10_Elcan_LYLA, Ace_vector, Throw, Put};			
+		respawnWeapons[] = {POD_M10_Elcan_LYLA, Ace_vector, Throw, Put};		
+		displayName = "Vognkommandør";
+		icon = "iconManLeader";
 		attendant = 1;	
-		editorPreview = "POD\POD_\POD_soldater\data\POD_Soldat.jpg";
+		engineer = 1;
+		editorPreview = "POD\POD_\POD_soldater\data\POD_VK.jpg";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
-		backpack = "POD_BP_SANMD";
+		backpack = "B_Carryall_mcamo";
 		uniformClass = "rhs_uniform_g3_mc";
 		Items[] = {
 			mag_2(ACE_elasticBandage),
@@ -22,6 +23,8 @@
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
 			ACRE_PRC343,
+			ItemcTab,
+			ACE_microDAGR,
 			ACRE_PRC152
 		};			
 
@@ -31,6 +34,8 @@
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
 			ACRE_PRC343,
+			ItemcTab,
+			ACE_microDAGR,
 			ACRE_PRC152
 		};					
 
@@ -50,7 +55,7 @@
 
 		linkedItems[] = {
 			V_DDAM_Vest_MTS_TYR,
-			H_DDAM_Helmet_M11_camo,
+			H_HelmetCrew_I,
 			ItemMap,
 			ItemCompass,
 			ItemWatch,
@@ -60,7 +65,7 @@
 
 		respawnLinkedItems[] = {
 			V_DDAM_Vest_MTS_TYR,
-			H_DDAM_Helmet_M11_camo,
+			H_HelmetCrew_I,
 			ItemMap,
 			ItemCompass,
 			ItemWatch,

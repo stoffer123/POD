@@ -97,6 +97,8 @@ class cfgVehicles
 	#include "POD_soldater\POD_GV2.hpp"
 	#include "POD_Soldater\POD_GV3.hpp"
 	#include "POD_soldater\POD_LMG.hpp"
+	#include "POD_soldater\POD_VK.hpp"
+	#include "POD_soldater\POD_KO.hpp"
 	
 };
 

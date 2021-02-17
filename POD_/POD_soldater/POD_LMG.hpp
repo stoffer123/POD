@@ -9,13 +9,13 @@
 		editorPreview = "POD\POD_\POD_soldater\data\POD_LMG.jpg";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Soldiers";
+		backpack = "POD_BP_LMG";
 		uniformClass = "rhs_uniform_g3_mc";
 		Items[] = {
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
-			ACE_SpareBarrel,
 			ACE_EarPlugs,
 			ACRE_PRC343
 		};			
@@ -25,7 +25,6 @@
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
-			ACE_SpareBarrel,
 			ACE_EarPlugs,
 			ACRE_PRC343
 		};					

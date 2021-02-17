@@ -56,3 +56,4 @@ POD_Dysekanon       --- Dyse med sigte
 POD_BP_DF           --- DF taske
 POD_BP_SANMD        --- Sand mand taske
 POD_BP_DYKN         --- Dysekanon taske
+POD_BP_LMG          --- LMG Taske

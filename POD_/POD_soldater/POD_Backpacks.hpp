@@ -54,3 +54,21 @@ class POD_BP_DYKN: B_Carryall_mcamo
 		};
 
 };
+
+
+class POD_BP_LMG: B_Carryall_mcamo 
+{
+	
+	scope = 2;
+	author = "[POD] Nebel";
+	displayName = "LMG Taske";
+	maximumLoad = 320;
+	mass = 20;
+	class TransportMagazines
+		//MACRO_ADDMAG(MAGAZINE,COUNT)
+		{
+			MACRO_ADDMAG(ACE_SpareBarrel,1)
+			
+		};
+
+};

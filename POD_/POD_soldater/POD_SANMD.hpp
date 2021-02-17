@@ -22,6 +22,7 @@
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
 			ACRE_PRC343,
+			ACE_EarPlugs,
 			ACRE_PRC152
 		};			
 
@@ -31,6 +32,7 @@
 			mag_2(ACE_morphine),
 			mag_2(ACE_tourniquet),
 			ACRE_PRC343,
+			ACE_EarPlugs,
 			ACRE_PRC152
 		};					
 

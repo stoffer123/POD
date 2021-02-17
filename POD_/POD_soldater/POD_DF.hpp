@@ -23,6 +23,7 @@
 			ACRE_PRC343,
 			ItemcTab,
 			ACE_microDAGR,
+			ACE_EarPlugs,
 			ACRE_PRC152
 		};			
 
@@ -34,6 +35,7 @@
 			ACRE_PRC343,
 			ItemcTab,
 			ACE_microDAGR,
+			ACE_EarPlugs,
 			ACRE_PRC152
 		};							
 

@@ -22,6 +22,7 @@
 			mag_2(ACE_tourniquet),
 			ACRE_PRC343,
 			ACRE_PRC152,
+			ACE_EarPlugs,
 			ItemAndroid
 		};			
 
@@ -32,6 +33,7 @@
 			mag_2(ACE_tourniquet),
 			ACRE_PRC343,
 			ACRE_PRC152,
+			ACE_EarPlugs,
 			ItemAndroid
 		};					
 

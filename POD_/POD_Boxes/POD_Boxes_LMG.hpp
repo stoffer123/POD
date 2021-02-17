@@ -23,8 +23,6 @@
 		//MACRO_ADDITEM(ITEM,COUNT)
 		{
 			MACRO_ADDITEM(ACE_SpareBarrel,10)
-			MACRO_ADDITEM(optic_ElcanC79,10)
-			MACRO_ADDITEM(rhsusf_acc_anpeq15,10)
 		};
 		
 		class TransportBackpacks

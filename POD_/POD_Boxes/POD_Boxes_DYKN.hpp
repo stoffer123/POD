@@ -10,7 +10,7 @@
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
 		{
-			MACRO_ADDWEAPON(tf47_m3maaws,10)
+			MACRO_ADDWEAPON(POD_Dysekanon,10)
 			MACRO_ADDWEAPON(tf47_at4_heat,100)
 		};
 		
@@ -26,7 +26,6 @@
 		//MACRO_ADDITEM(ITEM,COUNT)
 		{
 			MACRO_ADDITEM(ACE_Vector,10)
-			MACRO_ADDITEM(tf47_optic_m3maaws,10)
 		};
 		
 		class TransportBackpacks

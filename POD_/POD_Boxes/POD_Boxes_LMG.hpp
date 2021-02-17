@@ -10,7 +10,6 @@
 		class TransportWeapons
 		//MACRO_ADDWEAPON(WEAPON,COUNT)
 		{
-			MACRO_ADDWEAPON(LMG_M60E6_F,10)
 			MACRO_ADDWEAPON(POD_LMG_Elcan_LYLA,10)
 		};
 		

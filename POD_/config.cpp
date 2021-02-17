@@ -34,7 +34,33 @@ class CfgPatches
 		url = "https://www.platoonofdanes.com";
 		requiredAddons[] = {"A3_Data_F","A3_Structures_F","ace_medical_treatment","A3_Supplies_F_Heli_CargoNets","A3_Characters_F","L119A2"};
 		requiredVersion = 0.1;
-		units[] = {"POD_Boxes_Medic","POD_Boxes_Banana","POD_Soldat","POD_Soldat_LMG","POD_Boxes_STD","POD_Boxes_STD_Minus","POD_Boxes_HGR","POD_Boxes_DYKN","POD_Boxes_LMG","POD_Boxes_Logistik"};
+		units[] = {"POD_Boxes_Medic",
+		"POD_Boxes_Banana",
+		"POD_Soldat",
+		"POD_LMG",
+		"POD_Boxes_STD",
+		"POD_Boxes_STD_Minus",
+		"POD_Boxes_HGR",
+		"POD_Boxes_DYKN",
+		"POD_Boxes_LMG",
+		"POD_Boxes_Logistik",
+		"POD_DF","POD_GF",
+		"POD_GV1","POD_GV2",
+		"POD_GV3","POD_KO",
+		"POD_NK","POD_Oscar",
+		"POD_SANMD","POD_VK",
+		"POD_Skilt_POD",
+		"POD_Skilt_1Grp",
+		"POD_Skilt_2Grp",
+		"POD_Skilt_3Grp",
+		"POD_Skilt_Deltrop",
+		"POD_Skilt_Zeus",
+		"POD_Skilt_Reklame_Topgun",
+		"POD_BP_DF",
+		"POD_BP_SANMD",
+		"POD_BP_DYKN"
+		
+		};
 		weapons[] = {"POD_M10_Elcan_LYLA","POD_LMG_Elcan_LYLA"};
 	};
 };

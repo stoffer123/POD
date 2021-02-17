@@ -44,6 +44,8 @@ POD_GV1           --- Bravo
 POD_GV2           --- GV2 (Dyseskytte)
 POD_GV3           --- Sygehjælper
 POD_LMG           --- Letmaskingeværsskytte
+POD_VK		  --- Vogn kommandør
+POD_KO		  --- Kører
 
 //Våben
 POD_M10_Elcan_LYLA  --- M10 med Elcan og lyslaser

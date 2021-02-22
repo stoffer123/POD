@@ -11,7 +11,7 @@
 		displayName = "Gevær 2 (Dyse skytte)";
 		icon = "iconManAT";
 		editorPreview = "POD\POD_\POD_soldater\data\POD_GV2.jpg";
-		editorCategory = "POD_EdCat";
+		faction = "POD_MG"; // Class from CfgFactionClasses. Usually used for characters and vehicles.
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "POD_BP_DYKN";
 		uniformClass = "rhs_uniform_g3_mc";

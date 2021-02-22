@@ -12,7 +12,7 @@
 		displayName = "Geværskytte";
 		icon = "iconMan";
 		editorPreview = "POD\POD_\POD_soldater\data\POD_Soldat.jpg";
-		editorCategory = "POD_EdCat";
+		faction = "POD_MG"; // Class from CfgFactionClasses. Usually used for characters and vehicles.
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "B_Carryall_mcamo";
 		uniformClass = "rhs_uniform_g3_mc";

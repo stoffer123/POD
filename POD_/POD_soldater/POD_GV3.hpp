@@ -12,7 +12,7 @@
 		icon = "iconManMedic";
 		attendant = 1;	
 		editorPreview = "POD\POD_\POD_soldater\data\POD_Soldat.jpg";
-		editorCategory = "POD_EdCat";
+		faction = "POD_MG"; // Class from CfgFactionClasses. Usually used for characters and vehicles.
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "POD_BP_SANMD";
 		uniformClass = "rhs_uniform_g3_mc";

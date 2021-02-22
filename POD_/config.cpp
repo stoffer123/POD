@@ -30,7 +30,7 @@ class CfgPatches
 	class POD_
 	{
 		author = "Platoon of Danes - Mikkelsen";
-		name = "Platoon of Danes Boxes";
+		name = "Platoon of Danes ";
 		url = "https://www.platoonofdanes.com";
 		requiredAddons[] = {"A3_Data_F","A3_Structures_F","ace_medical_treatment","A3_Supplies_F_Heli_CargoNets","A3_Characters_F","L119A2"};
 		requiredVersion = 0.1;
@@ -47,8 +47,10 @@ class CfgPatches
 		"POD_DF","POD_GF",
 		"POD_GV1","POD_GV2",
 		"POD_GV3","POD_KO",
-		"POD_NK","POD_Oscar",
-		"POD_SANMD","POD_VK",
+		"POD_NK",
+		"POD_Oscar",
+		"POD_SANMD",
+		"POD_VK",
 		"POD_Skilt_POD",
 		"POD_Skilt_1Grp",
 		"POD_Skilt_2Grp",
@@ -56,8 +58,7 @@ class CfgPatches
 		"POD_Skilt_Deltrop",
 		"POD_Skilt_Zeus",
 		"POD_Skilt_Reklame_Topgun",
-		"POD_BP_DF",
-		"POD_BP_SANMD",
+		"POD_BP_DF","POD_BP_SANMD",
 		"POD_BP_DYKN",
 		"POD_BP_LMG"
 		

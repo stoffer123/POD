@@ -7,7 +7,7 @@
 		displayName = "Let maskingeværs skytte";
 		icon = "iconManMG";
 		editorPreview = "POD\POD_\POD_soldater\data\POD_LMG.jpg";
-		editorCategory = "POD_EdCat";
+		faction = "POD_MG"; // Class from CfgFactionClasses. Usually used for characters and vehicles.
 		editorSubcategory = "POD_EdSubcat_Soldiers";
 		backpack = "POD_BP_LMG";
 		uniformClass = "rhs_uniform_g3_mc";

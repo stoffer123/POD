@@ -2,8 +2,8 @@
 	class POD_LMG: POD_Soldat	
 	{
 		author = "[POD] Nebel";					
-		weapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};			
-		respawnWeapons[] = {POD_LMG_Elcan_LYLA, Throw, Put};		
+		weapons[] = {POD_LMG_Elcan_LYLA, ACE_vector, Throw, Put};			
+		respawnWeapons[] = {POD_LMG_Elcan_LYLA, ACE_vector, Throw, Put};		
 		displayName = "Let maskingeværs skytte";
 		icon = "iconManMG";
 		editorPreview = "POD\POD_\POD_soldater\data\POD_LMG.jpg";
@@ -15,7 +15,7 @@
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
-			mag_2(ACE_tourniquet),
+			mag_4(ACE_tourniquet),
 			ACE_EarPlugs,
 			ACRE_PRC343
 		};			
@@ -24,7 +24,7 @@
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
-			mag_2(ACE_tourniquet),
+			mag_4(ACE_tourniquet),
 			ACE_EarPlugs,
 			ACRE_PRC343
 		};					

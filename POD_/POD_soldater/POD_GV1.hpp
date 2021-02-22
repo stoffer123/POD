@@ -19,22 +19,24 @@
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
-			mag_2(ACE_tourniquet),
+			mag_4(ACE_tourniquet),
 			ACRE_PRC343,
 			ACRE_PRC152,
 			ACE_EarPlugs,
-			ItemAndroid
+			ItemAndroid,
+			ACE_MapTools
 		};			
 
 		RespawnItems[] = {
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
-			mag_2(ACE_tourniquet),
+			mag_4(ACE_tourniquet),
 			ACRE_PRC343,
 			ACRE_PRC152,
 			ACE_EarPlugs,
-			ItemAndroid
+			ItemAndroid,
+			ACE_MapTools
 		};					
 
 		magazines[] = {

@@ -38,6 +38,7 @@
 			MACRO_ADDITEM(ACE_SpraypaintBlue,2)
 			MACRO_ADDITEM(ACE_SpraypaintRed,2)
 			MACRO_ADDITEM(ACE_SpraypaintGreen,2)
+			MACRO_ADDITEM(ACE_microDAGR,2)
 			
 		};
 		

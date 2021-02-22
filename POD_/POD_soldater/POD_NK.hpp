@@ -18,36 +18,40 @@
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
-			mag_2(ACE_tourniquet),
+			mag_4(ACE_tourniquet),
 			ACRE_PRC343,
 			ItemcTab,
 			ACE_microDAGR,
 			ACE_EarPlugs,
-			ACRE_PRC152
+			ACRE_PRC152,
+			ACE_MapTools
 		};			
 
 		RespawnItems[] = {
 			mag_2(ACE_elasticBandage),
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
-			mag_2(ACE_tourniquet),
+			mag_4(ACE_tourniquet),
 			ACRE_PRC343,
 			ItemcTab,
 			ACE_microDAGR,
 			ACE_EarPlugs,
-			ACRE_PRC152
+			ACRE_PRC152,
+			ACE_MapTools
 		};							
 
 		magazines[] = {
 			mag_8(30Rnd_556x45_Stanag), 
-			SmokeShell, SmokeShellGreen, 
+			SmokeShell,
+			SmokeShellGreen, 
 			mag_2(Chemlight_green),
 			mag_2(HandGrenade)
 			};
 
 		respawnMagazines[] = {
 			mag_8(30Rnd_556x45_Stanag),
-			SmokeShell, SmokeShellGreen,
+			SmokeShell,
+			SmokeShellGreen,
 			mag_2(Chemlight_green),
 			mag_2(HandGrenade)
 			};

@@ -34,6 +34,7 @@ class POD_BP_SANMD: B_Carryall_mcamo
 		MACRO_ADDITEM(ACE_salineIV, 5)
 		MACRO_ADDITEM(ACE_salineIV_250, 5)
 		MACRO_ADDITEM(ACE_splint, 10)
+		MACRO_ADDITEM(ACE_surgicalKit, 1)
 	};
 };
 

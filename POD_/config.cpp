@@ -34,16 +34,17 @@ class CfgPatches
 		url = "https://www.platoonofdanes.com";
 		requiredAddons[] = {"A3_Data_F","A3_Structures_F","ace_medical_treatment","A3_Supplies_F_Heli_CargoNets","A3_Characters_F","L119A2"};
 		requiredVersion = 0.1;
-		units[] = {"POD_Boxes_Medic",
+		units[] = {
+		"POD_Boxes_Medic",
 		"POD_Boxes_Banana",
-		"POD_Soldat",
-		"POD_LMG",
 		"POD_Boxes_STD",
 		"POD_Boxes_STD_Minus",
 		"POD_Boxes_HGR",
 		"POD_Boxes_DYKN",
 		"POD_Boxes_LMG",
 		"POD_Boxes_Logistik",
+		"POD_Soldat",
+		"POD_LMG",
 		"POD_DF",
 		"POD_GF",
 		"POD_GV1",

@@ -2,6 +2,7 @@
 	{
 		scope = 2;		//
 		scopeCurator = 2;					// 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
+		scopeArsenal = 2;
 		displayName = "POD Standard kasse Minus";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";

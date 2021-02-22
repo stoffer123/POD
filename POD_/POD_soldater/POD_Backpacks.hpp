@@ -5,7 +5,7 @@ class POD_BP_DF: B_Carryall_mcamo
 	
 	scope = 2;
 	author = "[POD] Nebel";
-	displayName = "Delingsføre Taske";
+	displayName = "[POD] Delingsfører Taske";
 	maximumLoad = 320;
 	mass = 20;
 	class TransportItems 
@@ -20,7 +20,7 @@ class POD_BP_SANMD: B_Carryall_mcamo
 	
 	scope = 2;
 	author = "[POD] Nebel";
-	displayName = "SYHJ taske";
+	displayName = "[POD] SYHJ taske";
 	maximumLoad = 320;
 	mass = 20;
 	class TransportItems 
@@ -42,7 +42,7 @@ class POD_BP_DYKN: B_Carryall_mcamo
 	
 	scope = 2;
 	author = "[POD] Nebel";
-	displayName = "Dyse taske";
+	displayName = "[POD] Dyse taske";
 	maximumLoad = 320;
 	mass = 20;
 	class TransportMagazines
@@ -61,7 +61,7 @@ class POD_BP_LMG: B_Carryall_mcamo
 	
 	scope = 2;
 	author = "[POD] Nebel";
-	displayName = "LMG Taske";
+	displayName = "[POD] LMG Taske";
 	maximumLoad = 320;
 	mass = 20;
 	class TransportMagazines

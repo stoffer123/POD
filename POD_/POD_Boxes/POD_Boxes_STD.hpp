@@ -2,6 +2,7 @@
 	class POD_Boxes_STD: B_CargoNet_01_ammo_F
 	{
 		scope = 2;		//
+		scopeCurator = 2;					// 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
 		displayName = "POD Standard kasse";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";

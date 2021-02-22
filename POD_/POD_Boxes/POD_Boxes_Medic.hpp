@@ -2,6 +2,7 @@ class ACE_medicalSupplyCrate;
 	class POD_Boxes_Medic: ACE_medicalSupplyCrate
 	{
 		scope = 2;		//
+		scopeCurator = 2;					// 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
 		displayName = "POD Medic box";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";

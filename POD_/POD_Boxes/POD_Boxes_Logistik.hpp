@@ -1,6 +1,7 @@
 class POD_Boxes_Logistik: B_CargoNet_01_ammo_F
 	{
 		scope = 2;		//
+		scopeCurator = 2;					// 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
 		displayName = "POD Logistik kasse";
 		editorCategory = "POD_EdCat";
 		editorSubcategory = "POD_EdSubcat_Boxes";

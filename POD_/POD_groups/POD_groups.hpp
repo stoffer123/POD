@@ -9,7 +9,7 @@ class west
 			class POD_infantry{
 				name = "POD Gruppe";
 				side = 1;
-				faction = "POD_faction"
+				faction = "POD_MG"
 				rarityGroup = 0.3;
 				class unit0
 				{

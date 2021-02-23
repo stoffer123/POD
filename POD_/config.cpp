@@ -64,7 +64,7 @@ class CfgPatches
 		"POD_Skilt_Reklame_Topgun"
 		
 		};
-		weapons[] = {"POD_M10_Elcan_LYLA","POD_LMG_Elcan_LYLA"};
+		weapons[] = {"POD_M10_Elcan_LYLA","POD_LMG_Elcan_LYLA","POD_Dysekanon"};
 	};
 };
 

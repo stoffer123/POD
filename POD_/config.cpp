@@ -61,7 +61,11 @@ class CfgPatches
 		"POD_Skilt_3Grp",
 		"POD_Skilt_Deltrop",
 		"POD_Skilt_Zeus",
-		"POD_Skilt_Reklame_Topgun"
+		"POD_Skilt_Reklame_Topgun",
+		"POD_BP_DF",
+		"POD_BP_SANMD",
+		"POD_BP_DYKN",
+		"POD_BP_LMG"
 		
 		};
 		weapons[] = {"POD_M10_Elcan_LYLA","POD_LMG_Elcan_LYLA","POD_Dysekanon"};

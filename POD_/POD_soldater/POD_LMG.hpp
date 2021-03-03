@@ -29,15 +29,13 @@
 			ACRE_PRC343
 		};					
 
-		magazines[] = {
-			mag_8(100Rnd_762x51_Mag), 
+		magazines[] = { 
 			SmokeShell, SmokeShellGreen, 
 			mag_2(Chemlight_green),
 			mag_2(HandGrenade)
 			};
 
 		respawnMagazines[] = {
-			mag_8(100Rnd_762x51_Mag),
 			SmokeShell, SmokeShellGreen,
 			mag_2(Chemlight_green),
 			mag_2(HandGrenade)

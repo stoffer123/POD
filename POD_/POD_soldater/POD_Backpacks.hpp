@@ -69,6 +69,7 @@ class POD_BP_LMG: B_Carryall_mcamo
 		//MACRO_ADDMAG(MAGAZINE,COUNT)
 		{
 			MACRO_ADDMAG(ACE_SpareBarrel,1)
+			MACRO_ADDMAG(100Rnd_762x51_Mag,8)
 			
 		};
 

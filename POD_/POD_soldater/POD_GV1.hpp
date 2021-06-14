@@ -6,8 +6,8 @@
 		scopeCurator = 2;				
 		scopeArsenal = 2;				
 		identityTypes[] =  {"LanguageENG_F","Head_NATO","G_NATO_default"};	
-		weapons[] = {POD_M10_Elcan_LYLA, ACE_vector, Throw, Put};			
-		respawnWeapons[] = {POD_M10_Elcan_LYLA, ACE_vector, Throw, Put};		
+		weapons[] = {POD_M10_Elcan_LYLA, rhs_weap_M320, ACE_vector, Throw, Put};			
+		respawnWeapons[] = {POD_M10_Elcan_LYLA, rhs_weap_M320, ACE_vector, Throw, Put};		
 		displayName = "Gevær 1 (Bravo)";
 		icon = "iconManLeader";
 		editorPreview = "POD\POD_\POD_soldater\data\POD_Soldat.jpg";
@@ -43,14 +43,18 @@
 			mag_8(30Rnd_556x45_Stanag), 
 			SmokeShell, SmokeShellGreen, 
 			mag_2(Chemlight_green),
-			mag_2(HandGrenade)
+			mag_2(HandGrenade),
+			mag_10(rhs_mag_M441_HE),
+			mag_5(1Rnd_SmokeRed_Grenade_shell)
 			};
 
 		respawnMagazines[] = {
 			mag_8(30Rnd_556x45_Stanag),
 			SmokeShell, SmokeShellGreen,
 			mag_2(Chemlight_green),
-			mag_2(HandGrenade)
+			mag_2(HandGrenade),
+			mag_10(rhs_mag_M441_HE),
+			mag_5(1Rnd_SmokeRed_Grenade_shell)
 			};
 
 		linkedItems[] = {

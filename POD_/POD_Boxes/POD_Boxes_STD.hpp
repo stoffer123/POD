@@ -27,6 +27,8 @@
 			MACRO_ADDMAG(SmokeShell,12)
 			MACRO_ADDMAG(DemoCharge_Remote_Mag,5)
 			MACRO_ADDMAG(SatchelCharge_Remote_Mag,2)
+			MACRO_ADDMAG(rhs_mag_M441_HE,20)
+			MACRO_ADDMAG(1Rnd_SmokeRed_Grenade_shell,10)
 			
 		};
 		class TransportItems

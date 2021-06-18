@@ -13,7 +13,7 @@
 		editorPreview = "POD\POD_\POD_soldater\data\POD_Soldat.jpg";
 		faction = "POD_MG"; // Class from CfgFactionClasses. Usually used for characters and vehicles.
 		editorSubcategory = "POD_EdSubcat_Soldiers";
-		backpack = "B_Carryall_mcamo";
+		backpack = "POD_BP_GV1";
 		uniformClass = "rhs_uniform_g3_mc";
 		Items[] = {
 			mag_2(ACE_elasticBandage),
@@ -43,18 +43,14 @@
 			mag_8(30Rnd_556x45_Stanag), 
 			SmokeShell, SmokeShellGreen, 
 			mag_2(Chemlight_green),
-			mag_2(HandGrenade),
-			mag_10(rhs_mag_M441_HE),
-			mag_5(1Rnd_SmokeRed_Grenade_shell)
+			mag_2(HandGrenade)
 			};
 
 		respawnMagazines[] = {
 			mag_8(30Rnd_556x45_Stanag),
 			SmokeShell, SmokeShellGreen,
 			mag_2(Chemlight_green),
-			mag_2(HandGrenade),
-			mag_10(rhs_mag_M441_HE),
-			mag_5(1Rnd_SmokeRed_Grenade_shell)
+			mag_2(HandGrenade)
 			};
 
 		linkedItems[] = {

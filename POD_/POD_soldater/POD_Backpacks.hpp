@@ -61,7 +61,7 @@ class POD_BP_LMG: B_Carryall_mcamo
 {
 	
 	scope = 2;
-	author = "[POD] Nebel";
+	author = "[POD] Mikkelsen";
 	displayName = "[POD] LMG Taske";
 	maximumLoad = 320;
 	mass = 20;
@@ -70,6 +70,25 @@ class POD_BP_LMG: B_Carryall_mcamo
 		{
 			MACRO_ADDMAG(ACE_SpareBarrel,1)
 			MACRO_ADDMAG(100Rnd_762x51_Mag,8)
+			
+		};
+
+};
+
+
+class POD_BP_GV1: B_Carryall_mcamo 
+{
+	
+	scope = 2;
+	author = "[POD] Mikkelsen";
+	displayName = "[POD] GV1 Taske";
+	maximumLoad = 320;
+	mass = 20;
+	class TransportMagazines
+		//MACRO_ADDMAG(MAGAZINE,COUNT)
+		{
+			MACRO_ADDMAG(rhs_mag_M441_HE,10)
+			MACRO_ADDMAG(1Rnd_SmokeRed_Grenade_shell,5)
 			
 		};
 

@@ -61,22 +61,34 @@ class CfgPatches
 		"POD_Skilt_3Grp",
 		"POD_Skilt_Deltrop",
 		"POD_Skilt_Zeus",
-		"POD_Skilt_Reklame_Topgun",
-		"POD_BP_DF",
-		"POD_BP_SANMD",
-		"POD_BP_DYKN",
-		"POD_BP_LMG"
+		"POD_Skilt_Reklame_Topgun"
 		
 		};
 		weapons[] = {"POD_M10_Elcan_LYLA","POD_LMG_Elcan_LYLA","POD_Dysekanon"};
 	};
 };
 
+class CfgAddons 
+{
+	class PreloadAddons 
+	{
+		class POD_
+		{
+			list[] = 
+			{
+				"POD_"
+			};
+		};
+	};
+};
+
+
+
 class CfgEditorCategories
 {
 	class POD_EdCat // Category class, you point to it in editorCategory property
 	{
-		displayName = "Platoon of Danes"; // Name visible in the list
+		displayName = "Platoon of Danes Objects"; // Name visible in the list
 	};
 };
 
@@ -139,7 +151,7 @@ class cfgFactionClasses
 {
 	class POD_MG
 	{
-		displayname = "Platoon of Danes"
+		displayname = "Platoon of Danes Faction";
 		flag = "\a3\Data_f\Flags\flag_nato_co.paa";
 		icon = "\a3\Data_f\cfgFactionClasses_BLU_ca.paa";
 		priority = 1;

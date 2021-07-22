@@ -61,7 +61,8 @@ class CfgPatches
 		"POD_Skilt_3Grp",
 		"POD_Skilt_Deltrop",
 		"POD_Skilt_Zeus",
-		"POD_Skilt_Reklame_Topgun"
+		"POD_Skilt_Reklame_Topgun",
+		"POD_Boxes_Grpkasse_Base"
 		
 		};
 		weapons[] = {"POD_M10_Elcan_LYLA","POD_LMG_Elcan_LYLA","POD_Dysekanon"};
@@ -126,6 +127,7 @@ class cfgVehicles
 	#include "POD_Boxes\POD_Boxes_Logistik.hpp"
 	#include "POD_Boxes\POD_Boxes_STD.hpp"
 	#include "POD_Boxes\POD_Boxes_STD_Minus.hpp"
+	#include "POD_Boxes\Grpkasser\POD_Boxes_Grpkasser.hpp"
 	
 	//POD Skilte
 	#include "POD_Skilt\POD_Skilt.hpp"

@@ -62,7 +62,11 @@ class CfgPatches
 		"POD_Skilt_Deltrop",
 		"POD_Skilt_Zeus",
 		"POD_Skilt_Reklame_Topgun",
-		"POD_Boxes_Grpkasse_Base"
+		"POD_Boxes_Grpkasser_POD",
+		"POD_Boxes_Grpkasser_1Grp",
+		"POD_Boxes_Grpkasser_2Grp",
+		"POD_Boxes_Grpkasser_3Grp",
+		"POD_Boxes_Grpkasser_Deltrop"
 		
 		};
 		weapons[] = {"POD_M10_Elcan_LYLA","POD_LMG_Elcan_LYLA","POD_Dysekanon"};
@@ -104,6 +108,12 @@ class CfgEditorSubcategories
 	{
 		displayName = "POD Ammo kasser"; // Name visible in the list
 	};
+	
+	class POD_EdSubcat_Grpkasser // Category class, you point to it in editorSubcategory property
+	{
+		displayName = "POD Gruppe kasser"; // Name visible in the list
+	};
+	
 	class POD_EdSubcat_Soldiers // Category class, you point to it in editorSubcategory property
 	{
 		displayName = "Soldater";

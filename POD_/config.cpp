@@ -41,7 +41,7 @@ class CfgPatches
 		"POD_Boxes_STD_Minus",
 		"POD_Boxes_HGR",
 		"POD_Boxes_DYKN",
-		"POD_Boxes_LMG",
+		"POD_Boxes_SKB",
 		"POD_Boxes_Logistik",
 		"POD_Soldat",
 		"POD_LMG",
@@ -133,7 +133,7 @@ class cfgVehicles
 	#include "POD_Boxes\POD_Boxes_Medic.hpp"  //Indeholder baseclass class ACE_medicalSupplyCrate;
 	#include "POD_Boxes\POD_Boxes_DYKN.hpp"
 	#include "POD_Boxes\POD_Boxes_HGR.hpp"
-	#include "POD_Boxes\POD_Boxes_LMG.hpp"
+	#include "POD_Boxes\POD_Boxes_SKB.hpp"
 	#include "POD_Boxes\POD_Boxes_Logistik.hpp"
 	#include "POD_Boxes\POD_Boxes_STD.hpp"
 	#include "POD_Boxes\POD_Boxes_STD_Minus.hpp"

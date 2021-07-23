@@ -15,6 +15,7 @@ class POD_Boxes_Logistik: B_CargoNet_01_ammo_F
 			MACRO_ADDWEAPON(tf47_m3maaws,5)
 			MACRO_ADDWEAPON(tf47_at4_heat,100)
 			MACRO_ADDWEAPON(ACE_VMH3,100)
+			MACRO_ADDWEAPON(rhs_weap_M320,10)
 		};
 		
 		class TransportMagazines
@@ -28,7 +29,10 @@ class POD_Boxes_Logistik: B_CargoNet_01_ammo_F
 			MACRO_ADDMAG(SmokeShell,200)
 			MACRO_ADDMAG(ACE_M84,200)
 			MACRO_ADDMAG(DemoCharge_Remote_Mag,100)
-			MACRO_ADDMAG(SatchelCharge_Remote_Mag,50)	
+			MACRO_ADDMAG(SatchelCharge_Remote_Mag,50)
+			MACRO_ADDMAG(ACE_SpareBarrel,10)
+			MACRO_ADDMAG(rhs_mag_M441_HE,100)
+			MACRO_ADDMAG(1Rnd_SmokeRed_Grenade_shell,100)
 		};
 		
 		class TransportItems

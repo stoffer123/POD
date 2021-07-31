@@ -6,7 +6,7 @@
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
-
+#include "Macros.hpp"
 //(13 Enums)
 enum {
 	destructengine = 2,
@@ -31,34 +31,104 @@ class CfgPatches
 		author = "Platoon of Danes - Mikkelsen";
 		name = "Platoon of Danes Whistle ";
 		url = "https://www.platoonofdanes.com";
-		requiredAddons[] = {"A3_Data_F","A3_Structures_F"};
+		requiredAddons[] = {"A3_Data_F","A3_Structures_F","A3_Data_F_AoW_Loadorder","A3_Data_F_Mod_Loadorder","ace_interact_menu"};
 		requiredVersion = 0.1;
 		units[] = {
 		
 		};
 		weapons[] = {"POD_Whistle"};
 	};
-};   
+};  
 
 
 
-class CfgWeapons
+
+class CfgSounds {
+    sounds[] = {};
+    class WhistleShort {
+        name = "";
+        sound[] = {"POD\POD_Whistle\sounds\POD_Whistle_short.ogg", 7, 1, 300};
+        titles[] = {};
+    };
+    class WhistleLong {
+        name = "";
+        sound[] = {"POD\POD_Whistle\sounds\POD_Whistle_long.ogg", 7, 1, 300};
+        titles[] = {};
+    };
+};
+
+
+
+
+ 
+
+class CfgVehicles 
 {
-    class ItemCore;
-    class InventoryItem_Base_F;
-    
-    class POD_Whistle: ItemCore
-    {
-        author = "[POD] Mikkelsen";
-        displayName = "POD Whistle";
-        model = "POD\POD_Whistle\POD_Whistle.p3d";
-        scope = 2;      
-        scopeArsenal = 2;
+	class Item_Base_F;
+    class POD_Whistle_Item: Item_Base_F 
+	{
+        scope = 2;
         scopeCurator = 2;
-        descriptionShort = "Fløjte!";
-        class ItemInfo: InventoryItem_Base_F
-        {
-            mass=1;
+        displayName = "POD Whistle Item";
+        author = "[POD] Mikkelsen";
+        vehicleClass = "Items";
+        class TransportItems 
+		{
+            MACRO_ADDITEM(POD_Whistle,1);
         };
+    };
+	
+	
+	class Man;
+	class CAManBase: Man
+	{
+	 class ACE_SelfActions 
+	 {
+            class ACE_Equipment 
+			{
+                class Whistle 
+				{
+                    displayName = "Whistle";
+					//condtion = "'POD_Whistle' in items _player";
+					condition = ("POD_Whistle" in Items _player)
+                    icon = "POD\POD_Whistle\images\icon.paa";
+                    class Short 
+					{
+                        displayName = "Short";
+                        statement = "terminate whistle_script; whistle_script = ['WhistleShort'] execVM 'POD\POD_Whistle\scripts\POD_whistle.sqf'";
+                    };
+                    class Long 
+					{
+                        displayName = "Long";
+                        statement = "terminate whistle_script; whistle_script = ['WhistleLong'] execVM 'POD\POD_Whistle\scripts\POD_whistle.sqf'";
+                    };
+                };
+            };
+        };
+	};
+};
+
+
+class CfgWeapons 
+{
+    class CBA_MiscItem;
+    class CBA_MiscItem_ItemInfo;
+    class ACE_ItemCore: CBA_MiscItem {};
+
+    class POD_Whistle: ACE_ItemCore 
+	{
+        author = "POD - Mikkelsen";
+        scope = 2;
+        displayName = "POD Whistle";
+        descriptionShort = "POD Whistle";
+        model = "POD\POD_Whistle\POD_Whistle.p3d";
+        picture = "";
+        icon = "iconObject_circle";
+        mapSize = 0.034;
+        class ItemInfo: CBA_MiscItem_ItemInfo 
+		{
+            mass = 1;
+        };
+		
     };
 };

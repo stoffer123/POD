@@ -43,16 +43,25 @@ class CfgPatches
 
 
 
-class CfgSounds {
+class CfgSounds 
+{
     sounds[] = {};
-    class WhistleShort {
+    class WhistleShort 
+	{
         name = "";
         sound[] = {"POD\POD_Whistle\sounds\POD_Whistle_short.ogg", 7, 1, 300};
         titles[] = {};
     };
-    class WhistleLong {
+    class WhistleLong 
+	{
         name = "";
         sound[] = {"POD\POD_Whistle\sounds\POD_Whistle_long.ogg", 7, 1, 300};
+        titles[] = {};
+    };
+
+    class WhistleBaby {
+        name = "";
+        sound[] = {"POD\POD_Whistle\sounds\POD_Whistle_WhistleBaby.ogg", 7, 1, 300};
         titles[] = {};
     };
 };
@@ -101,6 +110,11 @@ class CfgVehicles
 					{
                         displayName = "Long";
                         statement = "terminate whistle_script; whistle_script = ['WhistleLong'] execVM 'POD\POD_Whistle\scripts\POD_whistle.sqf'";
+                    };
+                    class WhistleBaby
+					{
+                        displayName = "WhistleBaby";
+                        statement = "terminate whistle_script; whistle_script = ['WhistleBaby'] execVM 'POD\POD_Whistle\scripts\POD_whistle.sqf'";
                     };
                 };
             };

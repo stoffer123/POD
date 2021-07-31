@@ -122,7 +122,7 @@ class CfgWeapons
         displayName = "POD Whistle";
         descriptionShort = "POD Whistle";
         model = "POD\POD_Whistle\POD_Whistle.p3d";
-        picture = "";
+        picture = "\POD\POD_Whistle\images\POD_Whistle_Picture";
         icon = "iconObject_circle";
         mapSize = 0.034;
         class ItemInfo: CBA_MiscItem_ItemInfo 

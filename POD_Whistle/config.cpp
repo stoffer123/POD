@@ -46,20 +46,20 @@ class CfgPatches
 class CfgSounds 
 {
     sounds[] = {};
-    class WhistleShort 
+    class POD_WhistleShort 
 	{
         name = "";
         sound[] = {"POD\POD_Whistle\sounds\POD_Whistle_short.ogg", 7, 1, 300};
         titles[] = {};
     };
-    class WhistleLong 
+    class POD_WhistleLong 
 	{
         name = "";
         sound[] = {"POD\POD_Whistle\sounds\POD_Whistle_long.ogg", 7, 1, 300};
         titles[] = {};
     };
 
-    class WhistleBaby {
+    class POD_WhistleBaby {
         name = "";
         sound[] = {"POD\POD_Whistle\sounds\POD_Whistle_WhistleBaby.ogg", 7, 1, 300};
         titles[] = {};
@@ -104,17 +104,17 @@ class CfgVehicles
                     class Short 
 					{
                         displayName = "Short";
-                        statement = "terminate whistle_script; whistle_script = ['WhistleShort'] execVM 'POD\POD_Whistle\scripts\POD_whistle.sqf'";
+                        statement = "terminate whistle_script; whistle_script = ['POD_WhistleShort'] execVM 'POD\POD_Whistle\scripts\POD_whistle.sqf'";
                     };
                     class Long 
 					{
                         displayName = "Long";
-                        statement = "terminate whistle_script; whistle_script = ['WhistleLong'] execVM 'POD\POD_Whistle\scripts\POD_whistle.sqf'";
+                        statement = "terminate whistle_script; whistle_script = ['POD_WhistleLong'] execVM 'POD\POD_Whistle\scripts\POD_whistle.sqf'";
                     };
                     class WhistleBaby
 					{
                         displayName = "WhistleBaby";
-                        statement = "terminate whistle_script; whistle_script = ['WhistleBaby'] execVM 'POD\POD_Whistle\scripts\POD_whistle.sqf'";
+                        statement = "terminate whistle_script; whistle_script = ['POD_WhistleBaby'] execVM 'POD\POD_Whistle\scripts\POD_whistle.sqf'";
                     };
                 };
             };

@@ -4,7 +4,7 @@ class CfgSFX
 	{
         name = "POD Sounds Test SFX";
         sounds[] = {"POD_Sounds_Test"};
-        POD_Sounds_Test[] = {"POD\POD_Sounds\sounds\POD_Sounds_test.ogg",1,1,400,1,0,0,0};
+        POD_Sounds_Test[] = {"POD\POD_Sounds\sounds\POD_Sounds_test.ogg",db-10,1,20,1,0,0,0};
         empty[] = {"",0,0,0,0,0,0,0};
     };
 };

@@ -16,4 +16,12 @@ class CfgVehicles
         sound = "POD_Sounds_Luftsirene_SFX";
         displayName = "POD Sounds Luftsirene";
     };
+	
+    class POD_Sounds_Incoming: Sound 
+	{
+        author = "Platoon of Danes - Mikkelsen";
+        scope = 2;
+        sound = "POD_Sounds_Incoming_SFX";
+        displayName = "POD Sounds Incoming";
+    };
 };

@@ -11,4 +11,10 @@ class CfgSounds
         sound[] = {"POD\POD_Sounds\sounds\POD_Sounds_Luftsirene.ogg",0.5,1};
         titles[] = {};
     };
+	
+    class POD_Sounds_Incoming
+	{
+        sound[] = {"POD\POD_Sounds\sounds\POD_Sounds_Incoming.ogg",0.5,1};
+        titles[] = {};
+    };
 };

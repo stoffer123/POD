@@ -15,4 +15,12 @@ class CfgSFX
         POD_Sounds_Luftsirene[] = {"POD\POD_Sounds\sounds\POD_Sounds_Luftsirene.ogg",300,1,2000,1,0,0,0};
         empty[] = {"",0,0,0,0,0,0,0};
     };
+	
+    class POD_Sounds_Incoming_SFX
+	{
+        name = "POD Sounds Incoming SFX";
+        sounds[] = {"POD_Sounds_Incoming"};
+        POD_Sounds_Incoming[] = {"POD\POD_Sounds\sounds\POD_Sounds_Incoming.ogg",300,1,2000,1,0,0,0};
+        empty[] = {"",0,0,0,0,0,0,0};
+    };
 };

@@ -5,7 +5,7 @@ class CfgPatches
         author = "Platoon of Danes - Mikkelsen";
         requiredAddons[] = {"A3_Sounds_F"};
         requiredVersion = 0.1;
-        units[] = {"POD_Sounds_Test"};
+        units[] = {"POD_Sounds_Test","POD_Sounds_Luftsirene"};
         weapons[] = {};
     };
 };

@@ -23,6 +23,7 @@
 			ACRE_PRC343,
 			ItemcTab,
 			ACE_microDAGR,
+			ACE_Flashlight_MX991,
 			ACE_EarPlugs,
 			ACRE_PRC152,
 			ACE_MapTools
@@ -35,6 +36,7 @@
 			mag_4(ACE_tourniquet),
 			ACRE_PRC343,
 			ItemcTab,
+			ACE_Flashlight_MX991,
 			ACE_microDAGR,
 			ACE_EarPlugs,
 			ACRE_PRC152,

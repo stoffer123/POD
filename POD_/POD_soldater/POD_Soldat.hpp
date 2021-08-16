@@ -21,6 +21,7 @@
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
 			mag_4(ACE_tourniquet),
+			ACE_Flashlight_MX991,
 			ACE_EarPlugs,
 			ACRE_PRC343
 		};			
@@ -30,6 +31,7 @@
 			mag_2(ACE_CableTie),
 			mag_2(ACE_morphine),
 			mag_4(ACE_tourniquet),
+			ACE_Flashlight_MX991,
 			ACE_EarPlugs,
 			ACRE_PRC343
 		};					

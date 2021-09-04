@@ -27,6 +27,7 @@
 			ItemcTab,
 			ACE_microDAGR,
 			ACE_EarPlugs,
+			ACE_Fortify,
 			ACRE_PRC152
 		};			
 
@@ -40,6 +41,7 @@
 			ItemcTab,
 			ACE_microDAGR,
 			ACE_EarPlugs,
+			ACE_Fortify,
 			ACRE_PRC152
 		};					
 

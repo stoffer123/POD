@@ -28,6 +28,7 @@
 			ACE_microDAGR,
 			ACE_EarPlugs,
 			ACRE_PRC152,
+			ACE_Fortify,
 			ACE_MapTools
 		};			
 
@@ -42,6 +43,7 @@
 			ACE_microDAGR,
 			ACE_EarPlugs,
 			ACRE_PRC152,
+			ACE_Fortify,
 			ACE_MapTools
 		};					
 

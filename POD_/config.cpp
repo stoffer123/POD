@@ -175,3 +175,5 @@ class cfgGroups{
 
 		#include "POD_groups\POD_groups.hpp"
 };
+
+#include "ACEX_Fortify_Presets.hpp"

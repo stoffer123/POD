@@ -32,7 +32,13 @@ class CfgPatches
 		author = "Platoon of Danes - Mikkelsen";
 		name = "Platoon of Danes ";
 		url = "https://www.platoonofdanes.com";
-		requiredAddons[] = {"A3_Data_F","A3_Structures_F","ace_medical_treatment","A3_Supplies_F_Heli_CargoNets","A3_Characters_F","L119A2"};
+		requiredAddons[] = {"A3_Data_F",
+		"A3_Structures_F",
+		"ace_medical_treatment",
+		"A3_Supplies_F_Heli_CargoNets",
+		"A3_Characters_F",
+		"L119A2",
+		"A3_Weapons_F"};
 		requiredVersion = 0.1;
 		units[] = {
 		"POD_Boxes_Medic",
@@ -69,7 +75,11 @@ class CfgPatches
 		"POD_Boxes_Grpkasser_Deltrop"
 		
 		};
-		weapons[] = {"POD_M10_Elcan_LYLA","POD_LMG_Elcan_LYLA","POD_Dysekanon"};
+		weapons[] = {"POD_M10_Elcan_LYLA",
+		"POD_LMG_Elcan_LYLA",
+		"POD_Dysekanon",
+		"POD_Handgrenade_Muzzle"
+		};
 	};
 };
 
@@ -123,6 +133,18 @@ class CfgEditorSubcategories
 class cfgWeapons
 {
 	#include "POD_Weapons\POD_Weapons.hpp"
+};
+
+class cfgMagazines
+{
+	#include "POD_Weapons\cfgMagazines.hpp"
+};
+
+class cfgAmmo
+{
+	#include "POD_Weapons\cfgAmmo.hpp"
+	
+	
 };
 
 

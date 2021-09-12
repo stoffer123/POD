@@ -19,11 +19,11 @@
 		class TransportMagazines
 		//MACRO_ADDMAG(MAGAZINE,COUNT)
 		{
-			MACRO_ADDMAG(30Rnd_556x45_Stanag,32) 
+			MACRO_ADDMAG(POD_30Rnd_556,32) 
 			MACRO_ADDMAG(100Rnd_762x51_Mag,16)
 			MACRO_ADDMAG(tf47_m3maaws_HEAT,2)
 			MACRO_ADDMAG(tf47_m3maaws_HE,1)
-			MACRO_ADDMAG(HandGrenade,12)
+			MACRO_ADDMAG(POD_HandGrenade,12)
 			MACRO_ADDMAG(SmokeShell,12)
 			MACRO_ADDMAG(DemoCharge_Remote_Mag,5)
 			MACRO_ADDMAG(SatchelCharge_Remote_Mag,2)

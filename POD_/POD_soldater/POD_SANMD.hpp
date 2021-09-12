@@ -43,17 +43,17 @@
 		};					
 
 		magazines[] = {
-			mag_8(30Rnd_556x45_Stanag), 
+			mag_8(POD_30Rnd_556), 
 			SmokeShell, SmokeShellGreen, 
 			mag_2(Chemlight_green),
-			mag_2(HandGrenade)
+			mag_2(POD_HandGrenade)
 			};
 
 		respawnMagazines[] = {
-			mag_8(30Rnd_556x45_Stanag),
+			mag_8(POD_30Rnd_556),
 			SmokeShell, SmokeShellGreen,
 			mag_2(Chemlight_green),
-			mag_2(HandGrenade)
+			mag_2(POD_HandGrenade)
 			};
 
 		linkedItems[] = {

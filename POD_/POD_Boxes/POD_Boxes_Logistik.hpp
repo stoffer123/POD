@@ -21,11 +21,11 @@ class POD_Boxes_Logistik: B_CargoNet_01_ammo_F
 		class TransportMagazines
 		//MACRO_ADDMAG(MAGAZINE,COUNT)
 		{
-			MACRO_ADDMAG(30Rnd_556x45_Stanag,1000)
+			MACRO_ADDMAG(POD_30Rnd_556,1000)
 			MACRO_ADDMAG(100Rnd_762x51_Mag,1000)
 			MACRO_ADDMAG(tf47_m3maaws_HEAT,100)
 			MACRO_ADDMAG(tf47_m3maaws_HE,100)
-			MACRO_ADDMAG(HandGrenade,200)
+			MACRO_ADDMAG(POD_HandGrenade,200)
 			MACRO_ADDMAG(SmokeShell,200)
 			MACRO_ADDMAG(ACE_M84,200)
 			MACRO_ADDMAG(DemoCharge_Remote_Mag,100)

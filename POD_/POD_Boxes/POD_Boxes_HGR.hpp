@@ -14,7 +14,7 @@ class POD_Boxes_HGR: B_CargoNet_01_ammo_F
 		class TransportMagazines
 		//MACRO_ADDMAG(MAGAZINE,COUNT)
 		{
-			MACRO_ADDMAG(HandGrenade,50)
+			MACRO_ADDMAG(POD_HandGrenade,50)
 			MACRO_ADDMAG(SmokeShell,50)
 			MACRO_ADDMAG(ACE_M84,50)
 			MACRO_ADDMAG(rhs_mag_m69,50)

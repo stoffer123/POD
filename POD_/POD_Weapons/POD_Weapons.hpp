@@ -7,7 +7,10 @@
 		scopeCurator=2;
 		scopeArsenal = 2;
 		_generalMacro = "POD_M10_Elcan_LYLA";
-		magazines[] = {"30Rnd_556x45_Stanag"};
+		magazines[] = 
+		{
+			"POD_30Rnd_556"
+		};
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -65,3 +68,19 @@
 			};
 		};
 	};
+	
+
+		class GrenadeLauncher;
+		class Throw: GrenadeLauncher 
+		{
+			muzzles[]+={"POD_HandGrenade_Muzzle"};
+		
+			class ThrowMuzzle;
+			class POD_HandGrenade_Muzzle: ThrowMuzzle
+			{
+				magazines[]=
+				{
+					"POD_HandGrenade"
+				};
+			};
+		};

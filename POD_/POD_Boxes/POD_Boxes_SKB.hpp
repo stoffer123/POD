@@ -21,7 +21,7 @@
 		{
 			MACRO_ADDMAG(100Rnd_762x51_Mag,100)
 			MACRO_ADDMAG(ACE_SpareBarrel,10)
-			MACRO_ADDMAG(30Rnd_556x45_Stanag,50)
+			MACRO_ADDMAG(POD_30Rnd_556,50)
 			MACRO_ADDMAG(rhs_mag_M441_HE,50)
 			MACRO_ADDMAG(1Rnd_SmokeRed_Grenade_shell,50)
 		};

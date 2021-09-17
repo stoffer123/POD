@@ -10,8 +10,14 @@
 			{
 			"POD_GF"
 			};
-		
-		
+		class EventHandlers
+		{
+			class POD_Heliscript
+			{
+				init = "_this execVM 'POD\POD_\sqf\heliscript.sqf'";
+			};
+			
+		};
 		
 		
 		class TransportWeapons

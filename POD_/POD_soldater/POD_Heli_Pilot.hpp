@@ -10,6 +10,7 @@
 		respawnWeapons[] = {rhsusf_weap_glock17g4, Throw, Put};		
 		displayName = "Helikopter Pilot";
 		icon = "iconMan";
+		attendant = 1;
 		editorPreview = "POD\POD_\POD_soldater\data\POD_Heli_Pilot.jpg";
 		faction = "POD_MG"; // Class from CfgFactionClasses. Usually used for characters and vehicles.
 		editorSubcategory = "POD_EdSubcat_Soldiers";

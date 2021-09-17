@@ -33,6 +33,7 @@ class POD_Boxes_Logistik: B_CargoNet_01_ammo_F
 			MACRO_ADDMAG(ACE_SpareBarrel,10)
 			MACRO_ADDMAG(rhs_mag_M441_HE,100)
 			MACRO_ADDMAG(1Rnd_SmokeRed_Grenade_shell,100)
+			MACRO_ADDMAG(UK3CB_BAF_762_200Rnd_T,100)
 		};
 		
 		class TransportItems

@@ -38,7 +38,11 @@ class CfgPatches
 		"A3_Supplies_F_Heli_CargoNets",
 		"A3_Characters_F",
 		"L119A2",
-		"A3_Weapons_F"};
+		"A3_Weapons_F",
+		"uk3cb_baf_vehicles_merlin",
+		"rhsusf_weapons",
+		"rhsusf_weapons2",
+		"rhsusf_weapons3"};
 		requiredVersion = 0.1;
 		units[] = {
 		"POD_Boxes_Medic",
@@ -61,6 +65,8 @@ class CfgPatches
 		"POD_Oscar",
 		"POD_SANMD",
 		"POD_VK",
+		"POD_Heli_Pilot",
+		"POD_Merlin",
 		"POD_Skilt_POD",
 		"POD_Skilt_1Grp",
 		"POD_Skilt_2Grp",
@@ -128,6 +134,11 @@ class CfgEditorSubcategories
 	{
 		displayName = "Soldater";
 	};
+	
+	class POD_EdSubcat_Helicopters // Category class, you point to it in editorSubcategory property
+	{
+		displayName = "Helikopter";
+	};
 };
 
 class cfgWeapons
@@ -160,6 +171,7 @@ class cfgVehicles
 	#include "POD_Boxes\POD_Boxes_STD.hpp"
 	#include "POD_Boxes\POD_Boxes_STD_Minus.hpp"
 	#include "POD_Boxes\Grpkasser\POD_Boxes_Grpkasser.hpp"
+	#include "POD_Vehicles\POD_Helicopters.hpp"
 	
 	//POD Skilte
 	#include "POD_Skilt\POD_Skilt.hpp"
@@ -178,6 +190,7 @@ class cfgVehicles
 	#include "POD_soldater\POD_LMG.hpp"
 	#include "POD_soldater\POD_VK.hpp"
 	#include "POD_soldater\POD_KO.hpp"
+	#include "POD_Soldater\POD_Heli_Pilot.hpp"
 	
 };
 

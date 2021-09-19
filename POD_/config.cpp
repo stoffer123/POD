@@ -37,12 +37,15 @@ class CfgPatches
 		"ace_medical_treatment",
 		"A3_Supplies_F_Heli_CargoNets",
 		"A3_Characters_F",
-		"L119A2",
 		"A3_Weapons_F",
 		"uk3cb_baf_vehicles_merlin",
+		"rhsusf_main",
+		"rhsusf_c_weapons",
 		"rhsusf_weapons",
 		"rhsusf_weapons2",
-		"rhsusf_weapons3"};
+		"rhsusf_weapons3",
+		"L119A2"
+		};
 		requiredVersion = 0.1;
 		units[] = {
 		"POD_Boxes_Medic",

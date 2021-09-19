@@ -32,13 +32,15 @@
 		};					
 
 		magazines[] = { 
-			SmokeShell, SmokeShellGreen, 
+			SmokeShell,
+			SmokeShellGreen, 
 			mag_2(Chemlight_green),
 			mag_2(POD_HandGrenade)
 			};
 
 		respawnMagazines[] = {
-			SmokeShell, SmokeShellGreen,
+			SmokeShell,
+			SmokeShellGreen,
 			mag_2(Chemlight_green),
 			mag_2(POD_HandGrenade)
 			};

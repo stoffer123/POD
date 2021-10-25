@@ -1,4 +1,4 @@
-	//BASE SOLDAT
+	//POD Merlin
 	class UK3CB_BAF_Merlin_HC3_18_GPMG;
 	class POD_Merlin: UK3CB_BAF_Merlin_HC3_18_GPMG	
 	{

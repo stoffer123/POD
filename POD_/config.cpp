@@ -44,7 +44,8 @@ class CfgPatches
 		"rhsusf_weapons",
 		"rhsusf_weapons2",
 		"rhsusf_weapons3",
-		"L119A2"
+		"L119A2",
+		"UK3CB_baf_vehicles_MAN"
 		};
 		requiredVersion = 0.1;
 		units[] = {
@@ -81,7 +82,8 @@ class CfgPatches
 		"POD_Boxes_Grpkasser_1Grp",
 		"POD_Boxes_Grpkasser_2Grp",
 		"POD_Boxes_Grpkasser_3Grp",
-		"POD_Boxes_Grpkasser_Deltrop"
+		"POD_Boxes_Grpkasser_Deltrop",
+		"POD_Containers_Super"
 		
 		};
 		weapons[] = {"POD_M10_Elcan_LYLA",
@@ -142,6 +144,11 @@ class CfgEditorSubcategories
 	{
 		displayName = "Helikopter";
 	};
+
+	class POD_EdSubCat_Containers
+	{
+		displayName = "Containere";
+	};
 };
 
 class cfgWeapons
@@ -174,8 +181,11 @@ class cfgVehicles
 	#include "POD_Boxes\POD_Boxes_STD.hpp"
 	#include "POD_Boxes\POD_Boxes_STD_Minus.hpp"
 	#include "POD_Boxes\Grpkasser\POD_Boxes_Grpkasser.hpp"
+
+	//POD Vehicles
 	#include "POD_Vehicles\POD_Helicopters.hpp"
-	
+	#include "POD_Vehicles\POD_Containers.hpp"
+
 	//POD Skilte
 	#include "POD_Skilt\POD_Skilt.hpp"
 	
